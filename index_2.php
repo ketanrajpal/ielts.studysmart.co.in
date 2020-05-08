@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<script src="https://kit.fontawesome.com/c22280aa8e.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="./assets/css/custom.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 		<title>Study Smart</title>
 	</head>
 	<body>
@@ -83,7 +85,7 @@
 							];
 		?>
 
-		<div class="bg-white mt-4">
+		<div class="bg-white pt-4 pb-5">
 			<div class="container">
 				<div class="row mb-2">
 					<div class="col-lg-12">
@@ -95,7 +97,7 @@
 						foreach($studySmartAdv as $item): ?>
 							<div class="col-lg-4 mt-2 mb-2">
 								<div class="study_smart_adv">
-									<img src="<?php echo $item['img']; ?>" alt="" width="80">
+									<img src="<?php echo $item['img']; ?>" alt="" width="60">
 									<h2><?php echo $item['title']; ?></h2>
 									<p><?php echo $item['desc']; ?></p>
 								</div>
@@ -105,6 +107,257 @@
 				</div>
 			</div>
 		</div>
+		
+		<?php
+			$successStoriesArr = [
+									[
+										'user_name' => 'Daksh Gupta',
+										'comments' 	=> 'The services at Study Smart are the best. Faculties were very supportive and there was ample amount of pratice material. Queries were solved anytime. Good experience.',
+										'user_pic' 	=> './assets/img/user_1.png',
+										'user_score' => 8,
+									],
+									[
+										'user_name' => 'Akruta Juware',
+										'comments' 	=> 'If you are willing to study in US or Canada, you should get proper guidelines for preparing for IELTS exams.Study Smart is a place where a student gets support right from IELTS preparation to student visa.',
+										'user_pic' 	=> './assets/img/user_2.png',
+										'user_score' => 9,
+									],
+									[
+										'user_name' => 'Prashant Pareek',
+										'comments' 	=> 'The services at Study Smart are the best. Faculties were very supportive and there was ample amount of pratice material. Queries were solved anytime. Good experience.',
+										'user_pic' 	=> './assets/img/user_3.png',
+										'user_score' => 8,
+									],
+									[
+										'user_name' => 'Twinkle Chotaliya',
+										'comments' 	=> 'If you are willing to study in US or Canada, you should get proper guidelines for preparing for IELTS exams.Study Smart is a place where a student gets support right from IELTS preparation to student visa.',
+										'user_pic' 	=> './assets/img/user_4.png',
+										'user_score' => 9,
+									],
+								];
+		?>
+
+		<div class="bg-light pt-4 pb-5">
+			<div class="container">
+				<div class="row mb-2">
+					<div class="col-lg-12">
+						<h2 class="text-center mt-4 main_heading_text">Success Stories</h2>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col-lg-12">
+						<div class="owl-carousel success_stories_carousel owl-theme">
+							<?php foreach($successStoriesArr as $item): ?>
+								<div class="item pl-2 pr-2">
+									<div class="success_stories">
+										<div class="row">
+											<div class="col-lg-12">
+												<h2><?php echo $item['comments']; ?></h2>
+											</div>
+										</div>
+										<div class="row mt-3">
+											<div class="col-lg-2">
+												<img src="<?php echo $item['user_pic']; ?>">
+											</div>
+											<div class="col-lg-10">
+												<h4><?php echo $item['user_name']; ?></h4>
+												<h5>Overall Band : <span class="text-danger font-weight-bold"><?php echo $item['user_score']; ?></span></h5>
+											</div>
+										</div>
+									</div>
+								</div>
+							<?php endforeach; ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<?php
+			$achievementsArr = [
+									[
+										'title' => '10+',
+										'desc' 	=> 'Years of Experience',
+									],
+									[
+										'title' => '20+',
+										'desc' 	=> 'Expert Certified Trainers',
+									],
+									[
+										'title' => '12,000+',
+										'desc' 	=> 'Students Trained',
+									],
+									[
+										'title' => '23+',
+										'desc' 	=> 'Countries',
+									],
+									[
+										'title' => '85,000+',
+										'desc' 	=> 'Evaluations',
+									],
+									[
+										'title' => '96%',
+										'desc' 	=> 'Success rate',
+									],
+								];
+		?>
+		<div class="bg-light-grey pt-4 pb-4">
+			<div class="container">
+				<div class="row mb-2">
+					<div class="col-lg-12">
+						<h2 class="text-center mt-4 main_heading_text">Achievements</h2>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<?php foreach($achievementsArr as $item): ?>
+						<div class="col-lg-4">
+							<div class="text-center mileStones pt-3 pb-3">
+								<h2 class="text-dark"><?php echo  $item['title']; ?></h2>
+								<p><?php echo  $item['desc']; ?></p>
+							</div>
+						</div>
+				<?php endforeach; ?>
+				</div>
+			</div>
+		</div>
+
+		<?php
+			$ourTeamArr = [
+									[
+										'user_name' => 'Chetan Jain ',
+										'comments' 	=> 'Our organization is working under the leadership of Chetan Jain, who has over 12 years of experience in the Overseas Education Industry. He is an MBA Graduate from a Prestigious UK University and has worked as the International Admissions Manager with various British Universities like the LSC Group of Colleges, University of Chester & Anglia Ruskin University. It has been his vision, to help Indian students across the country achieve their Dream of Studying Abroad. Knowing very well that IELTS is the first step towards realizing this dream, he started off Study Smart with a small Training Centre in South Delhi, which soon scaled up to multiple centers across India and eventually one of the best Online IELTS Training platforms in India.',
+										'user_pic' 	=> './assets/img/user_1.png',
+										'designation' => 'Managing Director',
+									],
+									[
+										'user_name' => 'Lucy Mears',
+										'comments' 	=> 'Lucy Mears is a British national with over 15 years experience in the education sector.  She is an MBA Graduate from a top British University and a CELTA certified trainer. She has been teaching English across the globe for a number of years and has been instrumental in the development of Pre-Sessional English & Degree Foundation courses at many universities such as LSC & the University of Chester. She has also worked as an International Recruitment Manager for Oxford Brookes University and Regents University London.',
+										'user_pic' 	=> './assets/img/user_2.png',
+										'designation' => 'Chief Mentor - Course Development ',
+									],
+									[
+										'user_name' => 'Phill Biggerton ',
+										'comments' 	=> 'He is an IELTS teacher, a trainer to teachers, an IELTS Examiner for the British Council, content creator, a proofreader, and the author of “IELTS – The Complete Guide to Reading.” He has been teaching English in Europe and Asia since 1992. In the last 10 years he has specialized in IELTS and has been instrumental in the development of our online portal for IELTS Training.',
+										'user_pic' 	=> './assets/img/user_3.png',
+										'designation' => 'Chief Mentor – Mock Test & Evaluations ',
+									],
+									[
+										'user_name' => 'Jecinta Mathews ',
+										'comments' 	=> 'Jecinta is a passionate person my nature and virtue, her 19 years of rich training experience has groomed and crafted her with the required skill sets to connect with any age group of students. She has completed various certifications like the British Council, Trinity College London & Pearson Test of English. In addition she also has other International certifications from Dale Carnegie, DDI and Steven Covey for skills training. She has worked with top MNCs like Hallmark Cards and Wipro Technologies and has utilized all her technical & training expertise to deliver the best in class Online IELTS Trainings.',
+										'user_pic' 	=> './assets/img/user_4.png',
+										'designation' => 'Master Trainer & Project Lead ',
+									],
+									[
+										'user_name' => 'Krisha Porwal ',
+										'comments' 	=> 'Krisha has been a successful IELTS trainer for over 8 years, being technology savvy she believes in constantly upgrading her self and is known for her exceptional skills to research on the most latest trends & techniques for the IELTS exam. She has completed her certification with the British Council and Pearson Test of English. Students appreciate her in depth knowledge of IELTS, which has also played a vital role in thousands of students achieving a high band IELTS Score. 	',
+										'user_pic' 	=> './assets/img/user_4.png',
+										'designation' => 'Lead Trainer ',
+									],
+									[
+										'user_name' => 'Tassim Tiwari ',
+										'comments' 	=> 'Taasim has been teaching English Language and IELTS to adults since 8 years. She is a certified IELTS Trainer from the British Council. She is extremely passionate about training and has trained students from diverse backgrounds. The immense experience she has gained gives her the ability to be mold her teaching style according to the student’s caliber to bring out the best of their ability.',
+										'user_pic' 	=> './assets/img/user_3.png',
+										'designation' => 'Lead Trainer ',
+									],
+									[
+										'user_name' => 'Sylvia Thomas',
+										'comments' 	=> 'Sylvia has 9+ years of experience as a trainer for English Language & IELTS. Having trained in a multilingual and diverse city like Mumbai, she has the skills to train students from various backgrounds, including international students. She excels at adapting new techniques and training tools and believes that learning of any kind should be fun so that it can be retained for a long time. She is also a British Council certified trainer for IELTS. Students appreciate her friendly and caring nature. ',
+										'user_pic' 	=> './assets/img/user_4.png',
+										'designation' => 'Lead Trainer',
+									],
+									[
+										'user_name' => 'Kanika Singh',
+										'comments' 	=> 'Kanika has been working as an IELTS trainer since 2009. Her calm and pleasing persona helps her deliver high quality training to a large group of students. She has completed her certification with the British Council and Pearson Test of English. She has an exceptional high track record of helping students achieve their target score.',
+										'user_pic' 	=> './assets/img/user_4.png',
+										'designation' => 'Lead Trainer ',
+									],
+								];
+		?>
+
+		<div class="bg-light pt-4 pb-5">
+			<div class="container">
+				<div class="row mb-2">
+					<div class="col-lg-12">
+						<h2 class="text-center mt-4 main_heading_text">Our Team</h2>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col-lg-12">
+						<div class="owl-carousel our_team_carousel owl-theme">
+							<?php foreach($ourTeamArr as $item): ?>
+								<div class="item pl-2 pr-2">
+									<div class="our-teams text-center">
+										<div class="row">
+											<div class="col-lg-12">
+												<img src="<?php echo $item['user_pic']; ?>">
+												<h2><?php echo $item['user_name']; ?></h2>
+												<p><?php echo $item['designation']; ?></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							<?php endforeach; ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="main_footer_block">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-4 margin-top10">
+		                <div class="margin-bottom15">
+		                    <img src="./assets/img/logo_white.png" class="img-responsive" width="200">
+		                </div>
+		                <p class="text-white footer_para mt-2">As Rightly Quoted by an Ancient Greek Philosopher “The direction in which education starts will determine a man’s future in life”.</p>
+		            </div>
+		            <div class="col-xs-4 col-md-2">
+		                <div class="margin-bottom20">
+		                    <h2 class="text-white footer_head">Links</h2>                    
+		                </div>
+		                <ul class="list-unstyled footer_ul_li_a">
+		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">About</a></li>
+		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Courses</a></li>
+		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Offline Training</a></li>
+		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Contact</a></li>
+		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Log In / Free Trial</a></li>
+		                </ul>
+		            </div>
+		            
+		            <div class="col-md-3">
+		                <div class="margin-bottom30">
+		                    <h2 class="text-white footer_head">Have a Question</h2>                    
+		                </div>
+		                <ul class="list-unstyled footer_ul_li_a">
+		                    <li class="margin-top10 margin-bottom10"><a class="text-white" href="tel:+919650680072"><span class="fa fa-phone"></span> +91 965-068-0072</a></li>
+		                    <li class="margin-top10 margin-bottom10"><a class="text-white" href="mailto:info@studysmart.co.in"><span class="fa fa-envelope"></span> info@studysmart.co.in</a></li>
+		                    <li class="margin-top10 margin-bottom10"><a class="text-white" href=""><span class="fa fa-map-marker"></span> D-62, Ground Floor, Near Dena Bank, South Extension 1, Delhi 110049</a></li>
+		                </ul>
+		            </div>
+		            <div class="col-md-3">  
+		                <div class="margin-bottom20">
+		                    <h2 class="text-white footer_head">Connect With Us</h2>                    
+		                </div>
+		                <div>
+		                    <ul class="list-inline footer_ul_li_social">
+		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-twitter"></i></a></li>
+		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
+		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		        <hr class="footer_hr">
+		        <div class="row">
+		            <div class="col-xs-12 col-md-12 margin-top10">
+		                <p class="text-right footer_para text-white padding-top5">Copyright 2018 - 2020 all rights reserved planmeal.com</p>
+		            </div>
+		        </div>
+		    </div>
+		</footer>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -112,184 +365,219 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script>
-      (function () {
-        function id(v) {
-          return document.getElementById(v);
-        }
-        function loadbar() {
-          var ovrl = id("overlay"),
-            prog = id("progress"),
-            stat = id("progstat"),
-            img = document.images,
-            c = 0;
-          tot = img.length;
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		<script>
+			/* (function () {
+				function id(v) {
+					return document.getElementById(v);
+				}
+				function loadbar() {
+					var ovrl = id("overlay"),
+						prog = id("progress"),
+						stat = id("progstat"),
+						img = document.images,
+						c = 0;
+					tot = img.length;
 
-          function imgLoaded() {
-            c += 1;
-            var perc = (((100 / tot) * c) << 0) + "%";
-            prog.style.width = perc;
-            stat.innerHTML = "Loading " + perc;
-            if (c === tot) return doneLoading();
-          }
-          function doneLoading() {
-            ovrl.style.opacity = 0;
-            setTimeout(function () {
-              ovrl.style.display = "none";
-            }, 1200);
-          }
-          for (var i = 0; i < tot; i++) {
-            var tImg = new Image();
-            tImg.onload = imgLoaded;
-            tImg.onerror = imgLoaded;
-            tImg.src = img[i].src;
-          }
-        }
-        document.addEventListener("DOMContentLoaded", loadbar, false);
-      })();
+					function imgLoaded() {
+						c += 1;
+						var perc = (((100 / tot) * c) << 0) + "%";
+						prog.style.width = perc;
+						stat.innerHTML = "Loading " + perc;
+						if (c === tot) return doneLoading();
+					}
+					function doneLoading() {
+						ovrl.style.opacity = 0;
+						setTimeout(function () {
+							ovrl.style.display = "none";
+						}, 1200);
+					}
+					for (var i = 0; i < tot; i++) {
+						var tImg = new Image();
+						tImg.onload = imgLoaded;
+						tImg.onerror = imgLoaded;
+						tImg.src = img[i].src;
+					}
+				}
+				document.addEventListener("DOMContentLoaded", loadbar, false);
+			})(); */
 
-      var animate = {};
-      animate.opacityIn = [0, 1];
-      animate.scaleIn = [0.2, 1];
-      animate.scaleOut = 3;
-      animate.durationIn = 1000;
-      animate.durationOut = 800;
-      animate.delay = 1000;
+			var animate = {};
+			animate.opacityIn = [0, 1];
+			animate.scaleIn = [0.2, 1];
+			animate.scaleOut = 3;
+			animate.durationIn = 1000;
+			animate.durationOut = 800;
+			animate.delay = 1000;
 
-      anime
-        .timeline({ loop: true })
-        .add({
-          targets: ".animate-1",
-          opacity: animate.opacityIn,
-          scale: animate.scaleIn,
-          duration: animate.durationIn,
-        })
-        .add({
-          targets: ".animate-1",
-          opacity: 0,
-          scale: animate.scaleOut,
-          duration: animate.durationOut,
-          easing: "easeInExpo",
-          delay: animate.delay,
-        })
-        .add({
-          targets: ".animate-2",
-          opacity: animate.opacityIn,
-          scale: animate.scaleIn,
-          duration: animate.durationIn,
-        })
-        .add({
-          targets: ".animate-3",
-          opacity: animate.opacityIn,
-          scale: animate.scaleIn,
-          duration: animate.durationIn,
-        })
-        .add({
-          targets: ".animate-3",
-          opacity: 0,
-          scale: animate.scaleOut,
-          duration: animate.durationOut,
-          easing: "easeInExpo",
-          delay: animate.delay,
-        })
-        .add({
-          targets: ".animate-4",
-          opacity: animate.opacityIn,
-          scale: animate.scaleIn,
-          duration: animate.durationIn,
-        })
-        .add({
-          targets: ".animate-4",
-          opacity: 0,
-          scale: animate.scaleOut,
-          duration: animate.durationOut,
-          easing: "easeInExpo",
-          delay: animate.delay,
-        })
-        .add({
-          targets: ".animate-5",
-          opacity: animate.opacityIn,
-          scale: animate.scaleIn,
-          duration: animate.durationIn,
-        })
-        .add({
-          targets: ".animate-5",
-          opacity: 0,
-          scale: animate.scaleOut,
-          duration: animate.durationOut,
-          easing: "easeInExpo",
-          delay: animate.delay,
-        })
-        .add({
-          targets: ".animate-6",
-          opacity: animate.opacityIn,
-          scale: animate.scaleIn,
-          duration: animate.durationIn,
-        })
-        .add({
-          targets: ".animate-6",
-          opacity: 0,
-          scale: animate.scaleOut,
-          duration: animate.durationOut,
-          easing: "easeInExpo",
-          delay: animate.delay,
-        })
-        .add({
-          targets: ".animate-7",
-          opacity: animate.opacityIn,
-          scale: animate.scaleIn,
-          duration: animate.durationIn,
-        })
-        .add({
-          targets: ".animate-7",
-          opacity: 0,
-          scale: animate.scaleOut,
-          duration: animate.durationOut,
-          easing: "easeInExpo",
-          delay: animate.delay,
-        })
-        .add({
-          targets: ".animate-8",
-          opacity: animate.opacityIn,
-          scale: animate.scaleIn,
-          duration: animate.durationIn,
-        })
-        .add({
-          targets: ".animate-8",
-          opacity: 0,
-          scale: animate.scaleOut,
-          duration: animate.durationOut,
-          easing: "easeInExpo",
-          delay: animate.delay,
-        })
-        .add({
-          targets: ".animate-9",
-          opacity: animate.opacityIn,
-          scale: animate.scaleIn,
-          duration: animate.durationIn,
-        })
-        .add({
-          targets: ".animate-9",
-          opacity: 0,
-          scale: animate.scaleOut,
-          duration: animate.durationOut,
-          easing: "easeInExpo",
-          delay: animate.delay,
-        })
-        .add({
-          targets: ".animate-2",
-          opacity: 0,
-          scale: animate.scaleOut,
-          duration: animate.durationOut,
-          easing: "easeInExpo",
-          delay: animate.delay,
-        })
-        .add({
-          targets: ".animate",
-          opacity: 0,
-          duration: 500,
-          delay: 500,
-        });
-    </script>
+			anime
+				.timeline({ loop: true })
+				.add({
+					targets: ".animate-1",
+					opacity: animate.opacityIn,
+					scale: animate.scaleIn,
+					duration: animate.durationIn,
+				})
+				.add({
+					targets: ".animate-1",
+					opacity: 0,
+					scale: animate.scaleOut,
+					duration: animate.durationOut,
+					easing: "easeInExpo",
+					delay: animate.delay,
+				})
+				.add({
+					targets: ".animate-2",
+					opacity: animate.opacityIn,
+					scale: animate.scaleIn,
+					duration: animate.durationIn,
+				})
+				.add({
+					targets: ".animate-3",
+					opacity: animate.opacityIn,
+					scale: animate.scaleIn,
+					duration: animate.durationIn,
+				})
+				.add({
+					targets: ".animate-3",
+					opacity: 0,
+					scale: animate.scaleOut,
+					duration: animate.durationOut,
+					easing: "easeInExpo",
+					delay: animate.delay,
+				})
+				.add({
+					targets: ".animate-4",
+					opacity: animate.opacityIn,
+					scale: animate.scaleIn,
+					duration: animate.durationIn,
+				})
+				.add({
+					targets: ".animate-4",
+					opacity: 0,
+					scale: animate.scaleOut,
+					duration: animate.durationOut,
+					easing: "easeInExpo",
+					delay: animate.delay,
+				})
+				.add({
+					targets: ".animate-5",
+					opacity: animate.opacityIn,
+					scale: animate.scaleIn,
+					duration: animate.durationIn,
+				})
+				.add({
+					targets: ".animate-5",
+					opacity: 0,
+					scale: animate.scaleOut,
+					duration: animate.durationOut,
+					easing: "easeInExpo",
+					delay: animate.delay,
+				})
+				.add({
+					targets: ".animate-6",
+					opacity: animate.opacityIn,
+					scale: animate.scaleIn,
+					duration: animate.durationIn,
+				})
+				.add({
+					targets: ".animate-6",
+					opacity: 0,
+					scale: animate.scaleOut,
+					duration: animate.durationOut,
+					easing: "easeInExpo",
+					delay: animate.delay,
+				})
+				.add({
+					targets: ".animate-7",
+					opacity: animate.opacityIn,
+					scale: animate.scaleIn,
+					duration: animate.durationIn,
+				})
+				.add({
+					targets: ".animate-7",
+					opacity: 0,
+					scale: animate.scaleOut,
+					duration: animate.durationOut,
+					easing: "easeInExpo",
+					delay: animate.delay,
+				})
+				.add({
+					targets: ".animate-8",
+					opacity: animate.opacityIn,
+					scale: animate.scaleIn,
+					duration: animate.durationIn,
+				})
+				.add({
+					targets: ".animate-8",
+					opacity: 0,
+					scale: animate.scaleOut,
+					duration: animate.durationOut,
+					easing: "easeInExpo",
+					delay: animate.delay,
+				})
+				.add({
+					targets: ".animate-9",
+					opacity: animate.opacityIn,
+					scale: animate.scaleIn,
+					duration: animate.durationIn,
+				})
+				.add({
+					targets: ".animate-9",
+					opacity: 0,
+					scale: animate.scaleOut,
+					duration: animate.durationOut,
+					easing: "easeInExpo",
+					delay: animate.delay,
+				})
+				.add({
+					targets: ".animate-2",
+					opacity: 0,
+					scale: animate.scaleOut,
+					duration: animate.durationOut,
+					easing: "easeInExpo",
+					delay: animate.delay,
+				})
+				.add({
+					targets: ".animate",
+					opacity: 0,
+					duration: 500,
+					delay: 500,
+				});
+		</script>
+		<script>
+			$('.success_stories_carousel').owlCarousel({
+				loop:true,	
+				margin:10,
+				nav:false,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:2
+					},
+					1000:{
+						items:2
+					}
+				}
+			});
+			$('.our_team_carousel').owlCarousel({
+				loop:true,	
+				margin:10,
+				nav:false,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:2
+					},
+					1000:{
+						items:4
+					}
+				}
+			});
+		</script>
 	</body>
 </html>
