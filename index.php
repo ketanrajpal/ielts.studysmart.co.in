@@ -212,7 +212,7 @@
 										</div>
 										<div class="row mt-2">
 											<div class="col-lg-2 pr-0">
-												<img class="img-thumbnail" src="<?php echo $item['user_pic']; ?>">
+												<img class="img-thumbnail" data-src="<?php echo $item['user_pic']; ?>" src="<?php echo $item['user_pic']; ?>">
 											</div>
 											<div class="col-lg-10">
 												<h4><?php echo $item['user_name']; ?></h4>
@@ -292,7 +292,7 @@
 									[
 										'user_name' => 'Phill Biggerton ',
 										'comments' 	=> 'He is an IELTS teacher, a trainer to teachers, an IELTS Examiner for the British Council, content creator, a proofreader, and the author of “IELTS – The Complete Guide to Reading.” He has been teaching English in Europe and Asia since 1992. In the last 10 years he has specialized in IELTS and has been instrumental in the development of our online portal for IELTS Training.',
-										'user_pic' 	=> '/assets/img/user_3.png',
+										'user_pic' 	=> '/assets/img/phill-biggerton.jpeg',
 										'designation' => 'Chief Mentor – Mock Test & Evaluations ',
 									],
 									[
@@ -344,7 +344,7 @@
 										<div class="row">
 											<div class="col-lg-12">
 												<!-- <img src="<?php echo $item['user_pic']; ?>"> -->
-												<div class="profile_pic" style="background-image: url(<?php echo $item['user_pic']; ?>);"></div>
+												<div class="profile_pic" data-src="<?php echo $item['user_pic']; ?>" style="background-image: url(<?php echo $item['user_pic']; ?>);"></div>
 												<h2><?php echo $item['user_name']; ?></h2>
 												<p><?php echo $item['designation']; ?></p>
 											</div>
@@ -437,6 +437,9 @@
 		loop:true,	
 		margin:10,
 		nav:false,
+		autoplay: true,
+		lazyLoad: true,
+		autoplayHoverPause: true,
 		responsive:{
 			0:{
 				items:1
@@ -453,6 +456,9 @@
 		loop:true,	
 		margin:10,
 		nav:false,
+		autoplay: true,
+		lazyLoad: true,
+		autoplayHoverPause: true,
 		responsive:{
 			0:{
 				items:1
