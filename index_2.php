@@ -14,22 +14,51 @@
 		<title>Study Smart</title>
 	</head>
 	<body>
-		<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-black box-shadow sticky-top">
+
+		<div class="p-2 px-md-4 bg-black box-shadow sticky-top">
+		<nav class="navbar navbar-expand-lg">
+		  	<a class="navbar-brand" href="#">
+		  		<img src="./assets/img/logo_white.png" width="220" />
+		  	</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    	<ul class="navbar-nav mr-auto">
+			    	<li class="nav-item active">
+			        	<a class="p-2 main-menu-link" href="#"><span class="fa fa-graduation-cap"></span> About</a>
+			      	</li>
+					<li class="nav-item"><a class="p-2 main-menu-link" href="#"><span class="fa fa-university"></span> Courses</a></li>
+					<li class="nav-item"><a class="p-2 main-menu-link" href="#"><span class="fa fa-pen-fancy"></span> Offline Training</a></li>
+					<li class="nav-item"><a class="p-2 main-menu-link" href="#"><span class="fa fa-at"></span> Contact</a></li>
+			    </ul>
+			    <form class="my-2 my-lg-0">
+			    	<div class="btn-group" role="group" aria-label="Basic example">
+  						<a class="p-2 main-menu-link btn btn-danger btn-xs my-2 my-sm-0" href="http://portal.studysmart.co.in/"><span class="fa fa-sign-in-alt"></span> Log in</a>
+			    		<a class="p-2 main-menu-link btn btn-success btn-xs my-2 my-sm-0" href="http://portal.studysmart.co.in/register">Free Trial</a>
+					</div>
+			    </form>
+		  	</div>
+		</nav>
+		</div>
+
+		<!-- <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-black box-shadow sticky-top">
 			<h5 class="my-0 mr-md-auto font-weight-normal"><img src="./assets/img/logo_white.png" width="280" /></h5>
 			<nav class="my-2 my-md-0 mr-md-3">
 				<a class="p-2 main-menu-link" href="#"><span class="fa fa-graduation-cap"></span> About</a>
 				<a class="p-2 main-menu-link" href="#"><span class="fa fa-university"></span> Courses</a>
 				<a class="p-2 main-menu-link" href="#"><span class="fa fa-pen-fancy"></span> Offline Training</a>
 				<a class="p-2 main-menu-link" href="#"><span class="fa fa-at"></span> Contact</a>
-				<a class="p-2 main-menu-link" href="#"><span class="fa fa-sign-in-alt"></span> Log in / Free Trial</a>
+				<a class="p-2 main-menu-link" href="http://portal.studysmart.co.in/"><span class="fa fa-sign-in-alt"></span> Log in</a>
+				<a class="p-2 main-menu-link" href="#"><span class="fa fa-sign-in-alt"></span> </a>
 			</nav>
-		</div>
+		</div> -->
 
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 p-0">
 					<video autoplay muted loop class="background_video">
-						<source src="./assets/video/video.mp4" type="video/mp4" />
+						<source src="./assets/video/new_video.mp4" type="video/mp4" />
 					</video>
 					<div class="animate">
 						<div class="animate-1 animate_white_head">
@@ -64,7 +93,7 @@
 								],
 								[
 									'img' 	=> './assets/img/guidance.png',
-									'title' => 'Guidance & Support from the Best Trainers',
+									'title' => 'Certified & Experience Trainers',
 									'desc' 	=> 'Our Trainers are Cambridge & British Council Certified, carry years of training experience & provide One to One Support and Mentoring to students',
 								],
 								[
@@ -88,8 +117,15 @@
 		<div class="bg-white pt-4 pb-5">
 			<div class="container">
 				<div class="row mb-2">
-					<div class="col-lg-12">
-						<h2 class="text-center main_heading_text">The Study Smart Advantages</h2>
+					<div class="col-lg-6">
+						<h2 class="text-left main_heading_text">The Study Smart Advantages</h2>
+					</div>
+					<div class="col-lg-6">
+						<h2 class="text-right main_heading_text">
+							<a href="tel:+919650680072" class="text-dark text-decoration-none">
+							+91 965-068-0072
+							</a>
+						</h2>
 					</div>
 				</div>
 				<div class="row mt-3">
@@ -181,7 +217,7 @@
 									],
 									[
 										'title' => '20+',
-										'desc' 	=> 'Expert Certified Trainers',
+										'desc' 	=> 'Expert Trainers',
 									],
 									[
 										'title' => '12,000+',
@@ -210,7 +246,7 @@
 				</div>
 				<div class="row mt-3">
 					<?php foreach($achievementsArr as $item): ?>
-						<div class="col-lg-4">
+						<div class="col-lg-2">
 							<div class="text-center mileStones pt-3 pb-3">
 								<h2 class="text-dark"><?php echo  $item['title']; ?></h2>
 								<p><?php echo  $item['desc']; ?></p>
