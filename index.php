@@ -60,11 +60,11 @@
 					<video autoplay muted loop class="background_video">
 						<source src="./assets/video/new_video.mp4" type="video/mp4" />
 					</video>
-					<div class=""> 
+					<div class="video_text_block"> 
 						<h2 class="animate_main_head">Train with One of India’s Best IELTS Training Provider</h2>
-						<h4>Get that 8+ Band Score in the First attempt</h4>
-						<p>
-							<a href="#">Get Started</a>
+						<h4 class="animate_main_sub_head">Get that 8+ Band Score in the First attempt</h4>
+						<p class="pt-4">
+							<a href="#" class="animate_main_tag_link">Get Started</a>
 						</p>
 					</div>
 					<!-- <div class="animate">

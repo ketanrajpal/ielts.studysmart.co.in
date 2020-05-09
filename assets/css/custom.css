@@ -1,6 +1,5 @@
 @import"https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap";
 @import"https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;800;900&display=swap";
-@import"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap";
 body{font-family:"Raleway",sans-serif}
 .bg-black{background-color: #232323;}
 .bg-light-grey{background-color: #f5f5f5;}
@@ -16,55 +15,52 @@ body{font-family:"Raleway",sans-serif}
     max-width:100%;
     height:auto;
 }
-.animate_main_head{
+.video_text_block{
     z-index:9999;
-    top:2rem;
-    left:2rem;
-    font-size: 35px;
-    text-transform:  uppercase;
+    text-align: left;
+    position: absolute;
+    left:50px;
+    right: 0px;
+    width: 600px;
+    top:150px;
+}
+
+.animate_main_head{
+    font-family:"Raleway",sans-serif;
+    font-size: 32px;
+    text-transform:  capitalize;
     font-weight: 700;
-    letter-spacing: 0.4em;
-    text-align: center;
+    letter-spacing: 0.2em;
     color: #ffffff;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    line-height: 150%;
-    margin: auto;
     right: 0;
 }
-.animate_white_head{
-    font-size: 35px;
-    text-transform:	 uppercase;
-    font-weight: 700;
-    letter-spacing: 0.4em;
-    text-align: center;
-    align-items: center;
-    color: #ffffff;
+.animate_main_sub_head{
+    font-family:"Raleway",sans-serif;
+    font-size: 25px;
+    text-transform:  capitalize;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #e8e8e8;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    line-height: 150%;
-    margin: auto;
-    left: 0;
-    top: 40%;
     right: 0;
-    opacity: 0;
 }
-.animate_blue_head{
-    color: #448cca;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
-    top: 30%;
-    font-size: 35px;
-    text-transform:	 uppercase;
-    font-weight: 700;
-    letter-spacing: 0.4em;
-    text-align: center;
-    align-items: center;
-    position: absolute;
-    line-height: 150%;
-    margin: auto;
-    left: 0;
-    right: 0;
-    opacity: 0;
+.animate_main_tag_link{
+    background-color: #1a202e;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 15px 60px 15px 60px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+    transition: all 0.9s ease;
+}
+.animate_main_tag_link:hover{
+    text-decoration: none;
+    color: #000;
+    background-color: #FFFFFF;
+
 }
 .main_heading_text{
     color: #000000;
