@@ -16,6 +16,22 @@ body{font-family:"Raleway",sans-serif}
     max-width:100%;
     height:auto;
 }
+.animate_main_head{
+    z-index:9999;
+    top:2rem;
+    left:2rem;
+    font-size: 35px;
+    text-transform:  uppercase;
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    line-height: 150%;
+    margin: auto;
+    right: 0;
+}
 .animate_white_head{
     font-size: 35px;
     text-transform:	 uppercase;

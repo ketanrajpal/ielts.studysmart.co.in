@@ -18,7 +18,7 @@
 		<div class="p-2 px-md-4 bg-black box-shadow sticky-top">
 		<nav class="navbar navbar-expand-lg">
 		  	<a class="navbar-brand" href="#">
-		  		<img src="./assets/img/logo_white.png" width="220" />
+		  		<img src="./assets/img/logo_white.png" width="240" />
 		  	</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -26,11 +26,11 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    	<ul class="navbar-nav mr-auto">
 			    	<li class="nav-item active">
-			        	<a class="p-2 main-menu-link" href="#"><span class="fa fa-graduation-cap"></span> About</a>
+			        	<a class="p-3 main-menu-link" href="#"><span class="fa fa-graduation-cap"></span> About</a>
 			      	</li>
-					<li class="nav-item"><a class="p-2 main-menu-link" href="#"><span class="fa fa-university"></span> Courses</a></li>
-					<li class="nav-item"><a class="p-2 main-menu-link" href="#"><span class="fa fa-pen-fancy"></span> Offline Training</a></li>
-					<li class="nav-item"><a class="p-2 main-menu-link" href="#"><span class="fa fa-at"></span> Contact</a></li>
+					<li class="nav-item"><a class="p-3 main-menu-link" href="#"><span class="fa fa-university"></span> Courses</a></li>
+					<li class="nav-item"><a class="p-3 main-menu-link" href="#"><span class="fa fa-pen-fancy"></span> Offline Training</a></li>
+					<li class="nav-item"><a class="p-3 main-menu-link" href="#"><span class="fa fa-at"></span> Contact</a></li>
 			    </ul>
 			    <form class="my-2 my-lg-0">
 			    	<div class="btn-group" role="group" aria-label="Basic example">
@@ -60,7 +60,14 @@
 					<video autoplay muted loop class="background_video">
 						<source src="./assets/video/new_video.mp4" type="video/mp4" />
 					</video>
-					<div class="animate">
+					<div class=""> 
+						<h2 class="animate_main_head">Train with One of India’s Best IELTS Training Provider</h2>
+						<h4>Get that 8+ Band Score in the First attempt</h4>
+						<p>
+							<a href="#">Get Started</a>
+						</p>
+					</div>
+					<!-- <div class="animate">
 						<div class="animate-1 animate_white_head">
 							Train with One of India’s Best IELTS Training Provider
 						</div>
@@ -74,7 +81,7 @@
 						<div class="animate-7 animate_white_head">Learn with the Best Trainers</div>
 						<div class="animate-8 animate_white_head">Comprehensive Mock Tests</div>
 						<div class="animate-9 animate_white_head">Improvement Guaranteed</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -438,7 +445,7 @@
 				document.addEventListener("DOMContentLoaded", loadbar, false);
 			})(); */
 
-			var animate = {};
+			/*var animate = {};
 			animate.opacityIn = [0, 1];
 			animate.scaleIn = [0.2, 1];
 			animate.scaleOut = 3;
@@ -579,7 +586,7 @@
 					opacity: 0,
 					duration: 500,
 					delay: 500,
-				});
+				});*/
 		</script>
 		<script>
 			$('.success_stories_carousel').owlCarousel({
