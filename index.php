@@ -210,7 +210,7 @@
 												<h2><?php echo $item['comments']; ?></h2>
 											</div>
 										</div>
-										<div class="row mt-3">
+										<div class="row mt-2">
 											<div class="col-lg-2 pr-0">
 												<img class="img-thumbnail" src="<?php echo $item['user_pic']; ?>">
 											</div>
