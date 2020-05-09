@@ -16,11 +16,11 @@
 	<body>
 
 		<div class="p-2 px-md-4 bg-black box-shadow sticky-top">
-		<nav class="navbar navbar-expand-lg">
+		<nav class="navbar navbar-dark navbar-expand-md">
 		  	<a class="navbar-brand" href="#">
 		  		<img src="/assets/img/logo_white.png" width="240" />
 		  	</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -125,17 +125,17 @@
 			<div class="container">
 				<div class="row mb-2">
 					<div class="col-lg-6">
-						<h2 class="text-left main_heading_text">The Study Smart Advantages</h2>
+						<h2 class="text-center text-sm-left text-md-left text-lg-left text-xl-left main_heading_text pb-4">The Study Smart Advantages</h2>
 					</div>
 					<div class="col-lg-6">
-						<h2 class="text-right main_heading_text">
+						<h2 class="text-center text-sm-right text-md-right text-lg-right text-xl-right main_heading_text pb-4">
 							<a href="tel:+919650680072" class="text-dark text-decoration-none">
 							+91 965-068-0072
 							</a>
 						</h2>
 					</div>
 				</div>
-				<div class="row mt-3">
+				<div class="row mt-1">
 					<?php
 						foreach($studySmartAdv as $item): ?>
 							<div class="col-lg-4 mt-2 mb-2">
@@ -211,10 +211,10 @@
 											</div>
 										</div>
 										<div class="row mt-2">
-											<div class="col-lg-2 pr-0">
+											<div class="col-3 col-sm-3 col-md-3 col-lg-2 pr-0">
 												<img class="img-thumbnail" data-src="<?php echo $item['user_pic']; ?>" src="<?php echo $item['user_pic']; ?>">
 											</div>
-											<div class="col-lg-10">
+											<div class="col-9 col-sm-9 col-md-9 col-lg-10">
 												<h4><?php echo $item['user_name']; ?></h4>
 											</div>
 										</div>
@@ -264,7 +264,7 @@
 				</div>
 				<div class="row mt-3">
 					<?php foreach($achievementsArr as $item): ?>
-						<div class="col-lg-2">
+						<div class="col-6 col-sm-6 col-md-6 col-lg-2">
 							<div class="text-center mileStones pt-3 pb-3">
 								<h2 class="text-dark"><?php echo  $item['title']; ?></h2>
 								<p><?php echo  $item['desc']; ?></p>
@@ -361,13 +361,13 @@
 		<footer class="main_footer_block">
 		    <div class="container">
 		        <div class="row">
-		            <div class="col-md-4 margin-top10">
+		            <div class="col-sm-12 col-lg-4 margin-top10">
 		                <div class="margin-bottom15">
 		                    <img src="/assets/img/logo_white.png" class="img-responsive" width="200">
 		                </div>
 		                <p class="text-white footer_para mt-2">As Rightly Quoted by an Ancient Greek Philosopher “The direction in which education starts will determine a man’s future in life”.</p>
 		            </div>
-		            <div class="col-xs-4 col-md-2">
+		            <div class="col-6 col-sm-6 col-md-6 col-lg-2">
 		                <div class="margin-bottom20">
 		                    <h2 class="text-white footer_head">Links</h2>                    
 		                </div>
@@ -380,7 +380,7 @@
 		                </ul>
 		            </div>
 		            
-		            <div class="col-md-3">
+		            <div class="col-6 col-sm-12 col-md-6 col-lg-3">
 		                <div class="margin-bottom30">
 		                    <h2 class="text-white footer_head">Have a Question</h2>                    
 		                </div>
@@ -390,7 +390,7 @@
 		                    <li class="margin-top10 margin-bottom10"><a class="text-white" href=""><span class="fa fa-map-marker"></span> D-62, Ground Floor, Near Dena Bank, South Extension 1, Delhi 110049</a></li>
 		                </ul>
 		            </div>
-		            <div class="col-md-3">  
+		            <div class="col-lg-3">  
 		                <div class="margin-bottom20">
 		                    <h2 class="text-white footer_head">Connect With Us</h2>                    
 		                </div>
@@ -445,7 +445,7 @@
 				items:1
 			},
 			600:{
-				items:2
+				items:1
 			},
 			1000:{
 				items:2
@@ -464,7 +464,7 @@
 				items:1
 			},
 			600:{
-				items:2
+				items:1
 			},
 			1000:{
 				items:4

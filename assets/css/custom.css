@@ -112,7 +112,7 @@ body{font-family:"Raleway",sans-serif}
     margin-bottom: 10px;
     background-color: #fbfbfb;
     max-height: 350px;
-    height: 280px;
+    height: 300px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);   
 }
@@ -227,4 +227,24 @@ body{font-family:"Raleway",sans-serif}
     z-index: 9999;
     bottom: 20px;
     right: 20px;
+}
+
+/**Responsive Css**********************************************************/
+@media only screen and (max-width: 763px) {
+    .video_text_block{
+        top: 30px;
+        left: 20px;
+        width: unset;
+    }
+    .animate_main_head{
+        font-size: 22px;
+    }
+    .animate_main_sub_head{
+        font-size: 17px;
+    }
+    .animate_main_tag_link{
+        padding: 10px 15px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
 }
