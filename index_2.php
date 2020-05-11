@@ -286,7 +286,7 @@
 									[
 										'user_name' => 'Lucy Mears',
 										'comments' 	=> 'Lucy Mears is a British national with over 15 years experience in the education sector.  She is an MBA Graduate from a top British University and a CELTA certified trainer. She has been teaching English across the globe for a number of years and has been instrumental in the development of Pre-Sessional English & Degree Foundation courses at many universities such as LSC & the University of Chester. She has also worked as an International Recruitment Manager for Oxford Brookes University and Regents University London.',
-										'user_pic' 	=> '/assets/img/user_2.png',
+										'user_pic' 	=> '/assets/img/lucy-mears-circle.png',
 										'designation' => 'Chief Mentor - Course Development ',
 									],
 									[
@@ -353,6 +353,19 @@
 								</div>
 							<?php endforeach; ?>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg-light pt-4 pb-5">
+			<div class="container">
+				<div class="row mb-2">
+					<div class="col-lg-6">
+						<h2 class="text-center mt-4 main_heading_text">Tips & Strategies</h2>
+					</div>
+					<div class="col-lg-6">
+						<h2 class="text-center mt-4 main_heading_text">FAQs</h2>
 					</div>
 				</div>
 			</div>
