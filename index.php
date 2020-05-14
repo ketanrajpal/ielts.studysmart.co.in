@@ -4,56 +4,11 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<script src="https://kit.fontawesome.com/c22280aa8e.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="/assets/css/custom.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-		<title>Study Smart</title>
+		<title>Study Abroad, Overseas Education Consultants | Study Smart</title>
+		<?php include './layouts/common_styles.php'; ?>
 	</head>
 	<body>
-
-		<div class="p-2 px-md-4 bg-black box-shadow sticky-top">
-		<nav class="navbar navbar-dark navbar-expand-md">
-		  	<a class="navbar-brand" href="#">
-		  		<img src="/assets/img/logo_white.png" width="240" />
-		  	</a>
-			<button class="navbar-toggler border-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    	<ul class="navbar-nav mr-auto">
-			    	<li class="nav-item active">
-			        	<a class="p-3 main-menu-link" href="#"><span class="fa fa-graduation-cap"></span> About</a>
-			      	</li>
-					<li class="nav-item"><a class="p-3 main-menu-link" href="#"><span class="fa fa-university"></span> Courses</a></li>
-					<li class="nav-item"><a class="p-3 main-menu-link" href="#"><span class="fa fa-pen-fancy"></span> Offline Training</a></li>
-					<li class="nav-item"><a class="p-3 main-menu-link" href="#"><span class="fa fa-at"></span> Contact</a></li>
-			    </ul>
-			    <form class="my-2 my-lg-0">
-			    	<div class="btn-group" role="group" aria-label="Basic example">
-  						<a class="p-2 main-menu-link btn btn-danger btn-xs my-2 my-sm-0" href="http://portal.studysmart.co.in/"><span class="fa fa-sign-in-alt"></span> Log in</a>
-			    		<a class="p-2 main-menu-link btn btn-success btn-xs my-2 my-sm-0" href="http://portal.studysmart.co.in/register">Free Trial</a>
-					</div>
-			    </form>
-		  	</div>
-		</nav>
-		</div>
-
-		<!-- <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-black box-shadow sticky-top">
-			<h5 class="my-0 mr-md-auto font-weight-normal"><img src="/assets/img/logo_white.png" width="280" /></h5>
-			<nav class="my-2 my-md-0 mr-md-3">
-				<a class="p-2 main-menu-link" href="#"><span class="fa fa-graduation-cap"></span> About</a>
-				<a class="p-2 main-menu-link" href="#"><span class="fa fa-university"></span> Courses</a>
-				<a class="p-2 main-menu-link" href="#"><span class="fa fa-pen-fancy"></span> Offline Training</a>
-				<a class="p-2 main-menu-link" href="#"><span class="fa fa-at"></span> Contact</a>
-				<a class="p-2 main-menu-link" href="http://portal.studysmart.co.in/"><span class="fa fa-sign-in-alt"></span> Log in</a>
-				<a class="p-2 main-menu-link" href="#"><span class="fa fa-sign-in-alt"></span> </a>
-			</nav>
-		</div> -->
-
+		<?php include './layouts/header.php'; ?>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 p-0">
@@ -67,21 +22,6 @@
 							<a href="#" class="animate_main_tag_link">Get Started</a>
 						</p>
 					</div>
-					<!-- <div class="animate">
-						<div class="animate-1 animate_white_head">
-							Train with One of India’s Best IELTS Training Provider
-						</div>
-						<div class="animate-2 animate_blue_head">The Study Smart Advantage</div>
-						<div class="animate-3 animate_white_head">
-							Get that 8+ Band Score in the First attempt
-						</div>
-						<div class="animate-4 animate_white_head">Live Online Classes</div>
-						<div class="animate-5 animate_white_head">Everything Under One Roof</div>
-						<div class="animate-6 animate_white_head">Learn Anytime! Anywhere!</div>
-						<div class="animate-7 animate_white_head">Learn with the Best Trainers</div>
-						<div class="animate-8 animate_white_head">Comprehensive Mock Tests</div>
-						<div class="animate-9 animate_white_head">Improvement Guaranteed</div>
-					</div> -->
 				</div>
 			</div>
 		</div>
@@ -91,32 +31,32 @@
 								[
 									'img' 	=> '/assets/img/live_class.png',
 									'title' => 'Live Online Classes',
-									'desc' 	=> 'Our Trainers provide Live Interactive classes through Zoom where the experience is as good as an actual classroom session, Come Claim its Even Better!',
+									'desc' 	=> 'Our Trainers provide Live Interactive Classes via Zoom, The experience is As Good as an Actual Classroom Session, Some Claim its Even Better!',
 								],
 								[
 									'img' 	=> '/assets/img/one_roof.png',
 									'title' => 'Everything Under One Roof',
-									'desc' 	=> 'Our Online Portal is a One-Stop Shop for all Interactive Lessons, Tips & Tricks, Study Material, Recorded Classes, Mock Tests, Learning Resources and More! ',
+									'desc' 	=> 'Our Online Portal is a One-Stop Shop for Interactive Lessons, Tips, Study Material, Recorded Classes, Mock Tests, Learning Resources & More!',
 								],
 								[
-									'img' 	=> '/assets/img/guidance.png',
+									'img' 	=> '/assets/img/certified_trainer.png',
 									'title' => 'Certified & Experience Trainers',
-									'desc' 	=> 'Our Trainers are Cambridge & British Council Certified, carry years of training experience & provide One to One Support and Mentoring to students',
+									'desc' 	=> 'Our Trainers are Cambridge & British Council Certified, carry Years of Experience & provide One to One Support & Mentoring to students',
 								],
 								[
 									'img' 	=> '/assets/img/anytime.png',
 									'title' => 'Learn Anytime! Anywhere!',
-									'desc' 	=> 'You can prepare for the IELTS at your own convenience through our interactive Self-Guided Skill Building Lessons, Practice Material, Fun Exercises, Quizzes & Recorded lectures through Our Online Portal.',
+									'desc' 	=> 'Prepare for IELTS at your own convenience with our Self-Guided Skill Building Lessons, Practice Material, Fun Exercises, Quizzes & More',
 								],
 								[
 									'img' 	=> '/assets/img/mock_test.png',
 									'title' => 'Comprehensive Mock Tests',
-									'desc' 	=> 'Get access to Module Wise and Full Length Scored Mock test with Evaluations, Personalized Feedback and Score Predictor',
+									'desc' 	=> 'Get access to Module Wise and Full Length Scored Mock test with Evaluations, Personalized Feedback & Score Predictor',
 								],
 								[
 									'img' 	=> '/assets/img/improvement.png',
 									'title' => 'Improvement Guaranteed',
-									'desc' 	=> 'We have trained over 12,000 students with a 96% success rate. Become a part of our Success Story! ',
+									'desc' 	=> 'Having trained over 12,000 Students with a 96% Success Rate, We Guarantee an Improvement. Become a part of our Success Story!',
 								],
 							];
 		?>
@@ -125,12 +65,12 @@
 			<div class="container">
 				<div class="row mb-2">
 					<div class="col-lg-6">
-						<h2 class="text-center text-sm-left text-md-left text-lg-left text-xl-left main_heading_text pb-4">The Study Smart Advantages</h2>
+						<h2 class="text-center text-sm-left text-md-left text-lg-left text-xl-left main_heading_text pb-4">Get The Study Smart Advantage</h2>
 					</div>
 					<div class="col-lg-6">
 						<h2 class="text-center text-sm-right text-md-right text-lg-right text-xl-right main_heading_text pb-4">
 							<a href="tel:+919650680072" class="text-dark text-decoration-none">
-							+91 965-068-0072
+							<span class="fa fa-phone-alt"></span> +91 965-068-0072
 							</a>
 						</h2>
 					</div>
@@ -200,27 +140,28 @@
 					</div>
 				</div>
 				<div class="row mt-3">
-					<div class="col-lg-12">
+					<div class="col-lg-6">
 						<div class="owl-carousel success_stories_carousel owl-theme">
 							<?php foreach($successStoriesArr as $item): ?>
 								<div class="item pl-2 pr-2">
 									<div class="success_stories">
-										<div class="row">
-											<div class="col-lg-12">
-												<h2><?php echo $item['comments']; ?></h2>
-											</div>
-										</div>
 										<div class="row mt-2">
 											<div class="col-3 col-sm-3 col-md-3 col-lg-2 pr-0">
 												<img class="" data-src="<?php echo $item['user_pic']; ?>" src="<?php echo $item['user_pic']; ?>">
 											</div>
 											<div class="col-9 col-sm-9 col-md-9 col-lg-10">
 												<h4><?php echo $item['user_name']; ?></h4>
+												<h2><?php echo $item['comments']; ?></h2>
 											</div>
 										</div>
 									</div>
 								</div>
 							<?php endforeach; ?>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="embed-responsive embed-responsive-16by9">
+  							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nXJ6uEGa9HQ"></iframe>
 						</div>
 					</div>
 				</div>
@@ -230,27 +171,33 @@
 		<?php
 			$achievementsArr = [
 									[
-										'title' => '10+',
+										'title' => '10',
+										'mark_symbol' => '+',
 										'desc' 	=> 'Years of Experience',
 									],
 									[
-										'title' => '20+',
+										'title' => '20',
+										'mark_symbol' => '+',
 										'desc' 	=> 'Expert Trainers',
 									],
 									[
-										'title' => '12,000+',
+										'title' => '12000',
+										'mark_symbol' => '+',
 										'desc' 	=> 'Students Trained',
 									],
 									[
-										'title' => '23+',
+										'title' => '23',
+										'mark_symbol' => '+',
 										'desc' 	=> 'Countries',
 									],
 									[
-										'title' => '85,000+',
+										'title' => '85000',
+										'mark_symbol' => '+',
 										'desc' 	=> 'Evaluations',
 									],
 									[
-										'title' => '96%',
+										'title' => '96',
+										'mark_symbol' => '%',
 										'desc' 	=> 'Success rate',
 									],
 								];
@@ -259,14 +206,14 @@
 			<div class="container">
 				<div class="row mb-2">
 					<div class="col-lg-12">
-						<h2 class="text-center mt-4 main_heading_text">Achievements</h2>
+						<h2 class="text-center mt-4 main_heading_text">Milestones</h2>
 					</div>
 				</div>
 				<div class="row mt-3">
 					<?php foreach($achievementsArr as $item): ?>
 						<div class="col-6 col-sm-6 col-md-6 col-lg-2">
 							<div class="text-center mileStones pt-3 pb-3">
-								<h2 class="text-dark"><?php echo  $item['title']; ?></h2>
+								<h2 class="text-dark"><span class="numscroller" data-min="1" data-max="<?php echo  $item['title']; ?>" data-delay="5" data-increment="2"><?php echo  $item['title']; ?></span> <?php echo  $item['mark_symbol']; ?></h2>
 								<p><?php echo  $item['desc']; ?></p>
 							</div>
 						</div>
@@ -341,14 +288,16 @@
 							<?php foreach($ourTeamArr as $item): ?>
 								<div class="item pl-2 pr-2">
 									<div class="our-teams text-center">
-										<div class="row">
-											<div class="col-lg-12">
-												<img src="<?php echo $item['user_pic']; ?>">
-												<!-- <div class="profile_pic" data-src="<?php echo $item['user_pic']; ?>" style="background-image: url(<?php echo $item['user_pic']; ?>);"></div> -->
-												<h2><?php echo $item['user_name']; ?></h2>
-												<p><?php echo $item['designation']; ?></p>
+										<a href="javascript:void(0);" class="text-decoration-none" onclick="callOurTeamModal('<?php echo $item['user_pic']; ?>', '<?php echo $item['user_name']; ?>', '<?php echo $item['designation']; ?>', '<?php echo $item['comments']; ?>');">
+											<div class="row">
+												<div class="col-lg-12">
+													<img src="<?php echo $item['user_pic']; ?>">
+													<!-- <div class="profile_pic" data-src="<?php echo $item['user_pic']; ?>" style="background-image: url(<?php echo $item['user_pic']; ?>);"></div> -->
+													<h2><?php echo $item['user_name']; ?></h2>
+													<p><?php echo $item['designation']; ?></p>
+												</div>
 											</div>
-										</div>
+										</a>
 									</div>
 								</div>
 							<?php endforeach; ?>
@@ -362,132 +311,109 @@
 			<div class="container">
 				<div class="row mb-2">
 					<div class="col-lg-6">
-						<h2 class="text-center mt-4 main_heading_text">Tips & Strategies</h2>
+						<a href="/tips-and-strategies" class="text-decoration-none">
+							<h2 class="text-center mt-4 main_heading_text">IELTS Tips and Strategies</h2>
+						</a>
 					</div>
 					<div class="col-lg-6">
-						<h2 class="text-center mt-4 main_heading_text">FAQs</h2>
+						<a href="/faqs" class="text-decoration-none">
+							<h2 class="text-center mt-4 main_heading_text">IELTS Classes FAQs</h2>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<footer class="main_footer_block">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-sm-12 col-lg-4 margin-top10">
-		                <div class="margin-bottom15">
-		                    <img src="/assets/img/logo_white.png" class="img-responsive" width="200">
-		                </div>
-		                <p class="text-white footer_para mt-2">As Rightly Quoted by an Ancient Greek Philosopher “The direction in which education starts will determine a man’s future in life”.</p>
-		            </div>
-		            <div class="col-6 col-sm-6 col-md-6 col-lg-2">
-		                <div class="margin-bottom20">
-		                    <h2 class="text-white footer_head">Links</h2>                    
-		                </div>
-		                <ul class="list-unstyled footer_ul_li_a">
-		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">About</a></li>
-		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Courses</a></li>
-		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Offline Training</a></li>
-		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Contact</a></li>
-		                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Log In / Free Trial</a></li>
-		                </ul>
-		            </div>
-		            
-		            <div class="col-6 col-sm-12 col-md-6 col-lg-3">
-		                <div class="margin-bottom30">
-		                    <h2 class="text-white footer_head">Have a Question</h2>                    
-		                </div>
-		                <ul class="list-unstyled footer_ul_li_a">
-		                    <li class="margin-top10 margin-bottom10"><a class="text-white" href="tel:+919650680072"><span class="fa fa-phone"></span> +91 965-068-0072</a></li>
-		                    <li class="margin-top10 margin-bottom10"><a class="text-white" href="mailto:info@studysmart.co.in"><span class="fa fa-envelope"></span> info@studysmart.co.in</a></li>
-		                    <li class="margin-top10 margin-bottom10"><a class="text-white" href=""><span class="fa fa-map-marker"></span> D-62, Ground Floor, Near Dena Bank, South Extension 1, Delhi 110049</a></li>
-		                </ul>
-		            </div>
-		            <div class="col-lg-3">  
-		                <div class="margin-bottom20">
-		                    <h2 class="text-white footer_head">Connect With Us</h2>                    
-		                </div>
-		                <div>
-		                    <ul class="list-inline footer_ul_li_social">
-		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-facebook"></i></a></li>
-		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-twitter"></i></a></li>
-		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-instagram"></i></a></li>
-		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
-		                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-		                    </ul>
-		                </div>
-		            </div>
-		        </div>
-		        <hr class="footer_hr">
-		        <div class="row">
-		            <div class="col-xs-12 col-md-12 margin-top10">
-		                <p class="text-right footer_para text-white padding-top5">Copyright 2018 - 2020 all rights reserved planmeal.com</p>
-		            </div>
-		        </div>
-		    </div>
-		</footer>
+		<?php include './layouts/footer.php'; ?>		
 
-		<div class="whatsapp_block">
-			<a href="javascript:void(0)" onclick="javascript:genericSocialShare('https://web.whatsapp.com/send?phone=+919650680072&text=Hello!%20I%27m%20having%20an%20query%20@https://www.studysmart.co.in/')">
-				<img src="/assets/img/whatsapp.png" width="64">
-			</a>
-		</div>
-		<div class="back_to_top">
-			<a href="#">
-				<img src="/assets/img/back_to_top.png" width="64">
-			</a>
-		</div>
+		
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<div class="modal fade" id="our_team_modal_popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  	<div class="modal-dialog" role="document">
+    	<div class="modal-content">
+      		<div class="modal-header">
+        		<h5 class="modal-title" id="exampleModalLongTitle">Our Team</h5>
+        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          			<span aria-hidden="true">&times;</span>
+        		</button>
+      		</div>
+      		<div class="modal-body">
+        		<div class="row">
+        			<div class="col-md-12 text-center">
+        				<h2 id="team_member_name"></h2>
+        				<h4 id="team_member_desination"></h4>
+    				</div>
+				</div>
+				<div class="row">
+        			<div class="col-md-3">
+        				<div class="mt-2" id="team_profile_picture"></div>
+        			</div>
+        			<div class="col-md-9">
+        				<p id="team_member_comments"></p>
+        			</div>
+        		</div>
+      		</div>
+    	</div>
+  	</div>
+</div>
+
+
+<?php include './layouts/common_scripts.php'; ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.numscroller-1.0.js"></script>
 <script type="text/javascript">
-	$('.success_stories_carousel').owlCarousel({
-		loop:true,	
-		margin:10,
-		nav:false,
-		autoplay: true,
-		lazyLoad: true,
-		autoplayHoverPause: true,
-		responsive:{
-			0:{
-				items:1
-			},
-			600:{
-				items:1
-			},
-			1000:{
-				items:2
-			}
+$('.success_stories_carousel').owlCarousel({
+	loop:true,	
+	margin:10,
+	nav:false,
+	autoplay: true,
+	lazyLoad: true,
+	autoplayTimeout: 4000,
+	autoplayHoverPause: true,
+	responsive:{
+		0:{
+			items:1
+		},
+		600:{
+			items:1
+		},
+		1000:{
+			items:1
 		}
-	});
-	$('.our_team_carousel').owlCarousel({
-		loop:true,	
-		margin:10,
-		nav:false,
-		autoplay: true,
-		lazyLoad: true,
-		autoplayHoverPause: true,
-		responsive:{
-			0:{
-				items:1
-			},
-			600:{
-				items:1
-			},
-			1000:{
-				items:4
-			}
-		}
-	});
-	function genericSocialShare(url){
-		window.open(url,'sharer','toolbar=0,status=0,width=648,height=395');
-		return true;
 	}
+});
+$('.our_team_carousel').owlCarousel({
+	loop:true,	
+	margin:10,
+	nav:false,
+	autoplay: true,
+	lazyLoad: true,
+	autoplayTimeout: 4000,
+	autoplayHoverPause: true,
+	responsive:{
+		0:{
+			items:1
+		},
+		600:{
+			items:1
+		},
+		1000:{
+			items:4
+		}
+	}
+});
+function callOurTeamModal(user_image, user_name, designation, comments){
+	console.log(user_image);
+	console.log(user_name);
+	console.log(designation);
+	console.log(comments);
+	$('#team_profile_picture').html('<img src='+user_image+'>');
+	$('#team_member_name').text(user_name);
+	$('#team_member_desination').text(designation);
+	$('#team_member_comments').text(comments);
+	$('#our_team_modal_popup').modal('show');
+}
 </script>
 </body>
 </html>

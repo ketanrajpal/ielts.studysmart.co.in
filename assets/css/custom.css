@@ -1,7 +1,7 @@
 @import"https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap";
 @import"https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;800;900&display=swap";
 body{font-family:"Raleway",sans-serif}
-.bg-black{background-color: #232323;}
+.bg-black{background-color: #010101;}
 .bg-light-grey{background-color: #f5f5f5;}
 .main-menu-link{
     letter-spacing: 2px;
@@ -10,6 +10,7 @@ body{font-family:"Raleway",sans-serif}
     font-weight: 800;
     font-size: 14px;
 }
+.font-size25{font-size: 25px;}
 .main-menu-link:hover{color:#FFF;}
 .background_video{
     max-width:100%;
@@ -21,8 +22,8 @@ body{font-family:"Raleway",sans-serif}
     position: absolute;
     left:50px;
     right: 0px;
-    width: 600px;
-    top:150px;
+    width: 700px;
+    top:200px;
 }
 
 .animate_main_head{
@@ -32,24 +33,24 @@ body{font-family:"Raleway",sans-serif}
     font-weight: 700;
     letter-spacing: 0.2em;
     color: #ffffff;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.6);
     right: 0;
 }
 .animate_main_sub_head{
     font-family:"Raleway",sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     text-transform:  capitalize;
     font-weight: 400;
     letter-spacing: 0.1em;
     color: #e8e8e8;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.6);
     right: 0;
 }
 .animate_main_tag_link{
     background-color: #1a202e;
     color: #ffffff;
     font-weight: 500;
-    padding: 15px 60px 15px 60px;
+    padding: 15px 40px 15px 40px;
     font-size: 16px;
     margin-bottom: 8px;
     letter-spacing: 3px;
@@ -112,7 +113,7 @@ body{font-family:"Raleway",sans-serif}
     margin-bottom: 10px;
     background-color: #fbfbfb;
     max-height: 350px;
-    height: 300px;
+    height: 250px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);   
 }
@@ -229,6 +230,18 @@ body{font-family:"Raleway",sans-serif}
     right: 20px;
 }
 
+#team_profile_picture img{width: 100px;}
+#team_member_name{color: #1a1a1a;font-family: 'Lato', sans-serif;font-weight: 400;font-size: 25px;margin-bottom: 0px;}
+#team_member_desination{color: #333333;font-family: 'Lato', sans-serif;font-weight: 400;font-size: 16px;line-height: 20px;}
+#team_member_comments{color: #333333;font-family: 'Lato', sans-serif;font-weight: 400;font-size: 15px;line-height: 18px;text-align: justify;}
+.page-heading-text{color: #1a1a1a;font-family: 'Lato', sans-serif;font-weight: 400;font-size: 35px;}
+.page-para-text{color: #333333;-webkit-tap-highlight-color: rgba(233,80,149,0.2);font-family: 'Lato', sans-serif;font-size: 16px;font-weight: 500;}
+.courses_block{border: 1px solid #ccc;padding: 10px;border-radius: 10px;background: #f9f9f9;box-shadow: 1px 2px 3px 1px #f1f1f1;}
+
+
+
+
+
 /**Responsive Css**********************************************************/
 @media only screen and (max-width: 763px) {
     .video_text_block{
@@ -246,5 +259,8 @@ body{font-family:"Raleway",sans-serif}
         padding: 10px 15px;
         font-size: 14px;
         letter-spacing: 2px;
+    }
+    .success_stories{
+        height: 320px;
     }
 }
