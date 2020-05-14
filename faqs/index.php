@@ -5,10 +5,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>FAQs | Study Smart</title>
-		<?php include './layouts/common_styles.php'; ?>
+		<?php include '../layouts/common_styles.php'; ?>
 	</head>
 	<body>
-		<?php include './layouts/header.php'; ?>
+		<?php include '../layouts/header.php'; ?>
 		
 		<div class="container mt-3">
 			<div class="row">
@@ -18,7 +18,7 @@
 			</div>
 		</div>
 
-		<?php include './layouts/footer.php'; ?>
-<?php include './layouts/common_scripts.php'; ?>
+		<?php include '../layouts/footer.php'; ?>
+<?php include '../layouts/common_scripts.php'; ?>
 </body>
 </html>

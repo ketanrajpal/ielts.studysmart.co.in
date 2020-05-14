@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-12 col-lg-4 margin-top10">
                 <div class="margin-bottom15">
-                    <img src="/assets/img/logo_white.png" class="img-responsive" width="200">
+                    <img src="<?php echo (COMMON_CALL_URL.'/assets/img/logo_white.png'); ?>" class="img-responsive" width="200">
                 </div>
                 <p class="text-white footer_para mt-2">As Rightly Quoted by an Ancient Greek Philosopher “The direction in which education starts will determine a man’s future in life”.</p>
             </div>
@@ -12,9 +12,9 @@
                     <h2 class="text-white footer_head">Links</h2>                    
                 </div>
                 <ul class="list-unstyled footer_ul_li_a">
-                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="/about">About</a></li>
-                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="/courses">Courses</a></li>
-                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="/offline-training">Offline Training</a></li>
+                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="<?php echo (COMMON_CALL_URL.'/about'); ?>">About</a></li>
+                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="<?php echo (COMMON_CALL_URL.'/courses'); ?>">Courses</a></li>
+                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="<?php echo (COMMON_CALL_URL.'/offline-training'); ?>">Offline Training</a></li>
                     <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Contact</a></li>
                     <li class="margin-top5 margin-bottom5"><a class="text-white" href="http://portal.studysmart.co.in/">Log In / Free Trial</a></li>
                 </ul>
@@ -55,11 +55,11 @@
 </footer>
 <div class="whatsapp_block">
     <a href="javascript:void(0)" onclick="javascript:genericSocialShare('https://web.whatsapp.com/send?phone=+919650680072&text=Hello!%20I%27m%20having%20an%20query%20@https://www.studysmart.co.in/')">
-        <img src="/assets/img/whatsapp.png" width="64">
+        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/whatsapp.png'); ?>" width="64">
     </a>
 </div>
 <div class="back_to_top">
     <a href="#">
-        <img src="/assets/img/back_to_top.png" width="64">
+        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/back_to_top.png'); ?>" width="64">
     </a>
 </div>
