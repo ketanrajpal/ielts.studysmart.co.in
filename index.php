@@ -316,14 +316,19 @@
 		<div class="bg-light pt-4 pb-5">
 			<div class="container">
 				<div class="row mb-2">
-					<div class="col-lg-6">
+					<div class="col-lg-4">
 						<a href="<?php echo (COMMON_CALL_URL.'/tips-and-strategies'); ?>" class="text-decoration-none">
 							<h2 class="text-center mt-4 main_heading_text">IELTS Tips and Strategies</h2>
 						</a>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-4">
 						<a href="<?php echo (COMMON_CALL_URL.'/faqs'); ?>" class="text-decoration-none">
 							<h2 class="text-center mt-4 main_heading_text">IELTS Classes FAQs</h2>
+						</a>
+					</div>
+					<div class="col-lg-4">
+						<a href="<?php echo (COMMON_CALL_URL.'/faqs'); ?>" class="text-decoration-none">
+							<h2 class="text-center mt-4 main_heading_text">IELTS Test FAQs</h2>
 						</a>
 					</div>
 				</div>

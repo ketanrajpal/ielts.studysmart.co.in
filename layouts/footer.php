@@ -53,6 +53,12 @@
         </div>
     </div>
 </footer>
+
+<div class="phone_call_block">
+    <a href="tel:+919650680072">
+        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/phone_call.png'); ?>" width="64">
+    </a>
+</div>
 <div class="whatsapp_block">
     <a href="javascript:void(0)" onclick="javascript:genericSocialShare('https://web.whatsapp.com/send?phone=+919650680072&text=Hello!%20I%27m%20having%20an%20query%20@https://www.studysmart.co.in/')">
         <img src="<?php echo (COMMON_CALL_URL.'/assets/img/whatsapp.png'); ?>" width="64">
