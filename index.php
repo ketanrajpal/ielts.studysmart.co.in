@@ -173,31 +173,37 @@
 									[
 										'title' => '10',
 										'mark_symbol' => '+',
+										'counter_speed' => '2',
 										'desc' 	=> 'Years of Experience',
 									],
 									[
 										'title' => '20',
 										'mark_symbol' => '+',
+										'counter_speed' => '2',
 										'desc' 	=> 'Expert Trainers',
 									],
 									[
 										'title' => '12000',
 										'mark_symbol' => '+',
+										'counter_speed' => '100',
 										'desc' 	=> 'Students Trained',
 									],
 									[
 										'title' => '23',
 										'mark_symbol' => '+',
+										'counter_speed' => '5',
 										'desc' 	=> 'Countries',
 									],
 									[
 										'title' => '85000',
 										'mark_symbol' => '+',
+										'counter_speed' => '100',
 										'desc' 	=> 'Evaluations',
 									],
 									[
 										'title' => '96',
 										'mark_symbol' => '%',
+										'counter_speed' => '10',
 										'desc' 	=> 'Success rate',
 									],
 								];
@@ -213,7 +219,7 @@
 					<?php foreach($achievementsArr as $item): ?>
 						<div class="col-6 col-sm-6 col-md-6 col-lg-2">
 							<div class="text-center mileStones pt-3 pb-3">
-								<h2 class="text-dark"><span class="numscroller" data-min="1" data-max="<?php echo  $item['title']; ?>" data-delay="5" data-increment="2"><?php echo  $item['title']; ?></span> <?php echo  $item['mark_symbol']; ?></h2>
+								<h2 class="text-dark"><span class="numscroller" data-min="1" data-max="<?php echo  $item['title']; ?>" data-delay="5" data-increment="<?php echo $item['counter_speed']; ?>"><?php echo  $item['title']; ?></span> <?php echo  $item['mark_symbol']; ?></h2>
 								<p><?php echo  $item['desc']; ?></p>
 							</div>
 						</div>
@@ -389,7 +395,7 @@ $('.our_team_carousel').owlCarousel({
 	nav:false,
 	autoplay: true,
 	lazyLoad: true,
-	autoplayTimeout: 4000,
+	autoplayTimeout: 8000,
 	autoplayHoverPause: true,
 	responsive:{
 		0:{

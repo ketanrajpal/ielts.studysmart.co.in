@@ -6,6 +6,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Courses | Study Smart</title>
 		<?php include '../layouts/common_styles.php'; ?>
+		<style type="text/css">
+			.page-heading-text:after{
+			    content: "";
+			    display: block;
+			    width: 65px;
+			    height: 3px;
+			    background-color: #2aa1cb;
+			    margin-top: 8px;
+			    margin: 3px 0px 0px 0px;
+			}
+		</style>
 	</head>
 	<body>
 		<?php include '../layouts/header.php'; ?>
@@ -77,13 +88,13 @@
 				<div class="col-md-4">
 					<h2 class="text-left pb-2 page-heading-text">Live Classes Schedule</h2>
 					<div class="courses_block">
-						<p>Duration: Friday to Sunday</p>
+						<p>Duration: Friday to Sunday for 4 weeks</p>
 						<p>Timings</p>
 						<ul class="list-unstyled">
 							<li><span class="fa fa-clock"></span> 7:00 PM – 9:00 PM</li>
 						</ul>
 
-						<p>Duration: Saturday & Sunday</p>
+						<p>Duration: Saturday & Sunday for 4 weeks</p>
 						<p>Timings</p>
 						<ul class="list-unstyled">
 							<li><span class="fa fa-clock"></span> 10:00 AM – 2:00 PM</li>

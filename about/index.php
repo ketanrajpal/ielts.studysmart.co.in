@@ -6,6 +6,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>About Us | Study Smart</title>
 		<?php include '../layouts/common_styles.php'; ?>
+		<style type="text/css">
+			.page-heading-text:after{
+			    content: "";
+			    display: block;
+			    width: 65px;
+			    height: 3px;
+			    background-color: #2aa1cb;
+			    margin-top: 8px;
+			    margin: 3px auto 0px auto;
+			}
+		</style>
 	</head>
 	<body>
 		<?php include("../layouts/header.php"); ?>

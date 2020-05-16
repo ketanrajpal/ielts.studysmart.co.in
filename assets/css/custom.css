@@ -192,12 +192,13 @@ body{font-family:"Raleway",sans-serif}
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    font-style: italic;
 }
 
 .main_footer_block {
     padding: 50px 0 0px 0;
     left: 0;
-    background-color: #222222;
+    background-color: #010101;
 }
 .main_footer_block .footer_para {
     padding-bottom: 10px;
