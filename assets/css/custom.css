@@ -10,7 +10,8 @@ body{font-family:"Raleway",sans-serif}
     font-weight: 800;
     font-size: 14px;
 }
-.font-size25{font-size: 25px;}
+.font-size25{font-size: 25px !important;}
+.font-family-lato{font-family: "Lato",sans-serif;}
 .main-menu-link:hover{color:#FFF;}
 .background_video{
     max-width:100%;
@@ -26,7 +27,6 @@ body{font-family:"Raleway",sans-serif}
     width: 700px;
     top:200px;
 }
-
 .animate_main_head{
     font-family:"Raleway",sans-serif;
     font-size: 32px;

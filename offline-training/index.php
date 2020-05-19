@@ -16,12 +16,12 @@
 			}
 			.video_text_block{
 			    z-index:1;
-			    text-align: right;
+			    text-align: left;
 			    position: absolute;
+			    left: 0px
 			    right: 0px;
 			    width: 700px;
 			    top:160px;
-			    left: unset;
 			}
 			.animate_main_head{
 			    color: #1a202e;
@@ -45,7 +45,7 @@
 	<body>
 		<?php include '../layouts/header.php'; ?>
 		
-		<div class="offline_training_bg" style="background-image: url('<?php echo (COMMON_CALL_URL.'/assets/img/offline_training.jpg'); ?>')">
+		<div class="offline_training_bg" style="background-image: url('<?php echo (COMMON_CALL_URL.'/assets/img/offline_training.jpeg'); ?>')">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
