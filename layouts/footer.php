@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-12 col-lg-4 margin-top10">
                 <div class="margin-bottom15">
-                    <img src="<?php echo (COMMON_CALL_URL.'/assets/img/study_smart_logo.jpg'); ?>" class="img-responsive" width="200">
+                    <img src="<?php echo (COMMON_CALL_URL.'/assets/img/study_smart_logo.jpg'); ?>" class="img-responsive" width="250">
                 </div>
                 <p class="text-white footer_para mt-2">As Rightly Quoted by an Ancient Greek Philosopher “The direction in which education starts will determine a man’s future in life”.</p>
             </div>
