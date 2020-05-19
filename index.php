@@ -13,7 +13,7 @@
 			<div class="row">
 				<div class="col-lg-12 p-0">
 					<video autoplay muted loop class="background_video">
-						<source src="./assets/video/new_video.mp4" type="video/mp4" />
+						<source  src="./assets/video/new_video.mp4" type="video/mp4" />
 					</video>
 					<div class="video_text_block"> 
 						<h2 class="animate_main_head">Train with One of India’s Best IELTS Training Provider</h2>
@@ -161,7 +161,9 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="embed-responsive embed-responsive-16by9">
-  							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nXJ6uEGa9HQ"></iframe>
+							<video controls loop class="embed-responsive-item">
+								<source src="./assets/video/intro_video.mp4" type="video/mp4" />
+							</video>
 						</div>
 					</div>
 				</div>
@@ -342,24 +344,19 @@
 <div class="modal fade" id="our_team_modal_popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   	<div class="modal-dialog" role="document">
     	<div class="modal-content">
-      		<div class="modal-header">
-        		<h5 class="modal-title" id="exampleModalLongTitle">Our Team</h5>
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      		<div class="modal-body">
+      			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           			<span aria-hidden="true">&times;</span>
         		</button>
-      		</div>
-      		<div class="modal-body">
         		<div class="row">
         			<div class="col-md-12 text-center">
+        				<div class="mt-2" id="team_profile_picture"></div>
         				<h2 id="team_member_name"></h2>
         				<h4 id="team_member_desination"></h4>
     				</div>
 				</div>
 				<div class="row">
-        			<div class="col-md-3">
-        				<div class="mt-2" id="team_profile_picture"></div>
-        			</div>
-        			<div class="col-md-9">
+        			<div class="col-md-12">
         				<p id="team_member_comments"></p>
         			</div>
         		</div>
@@ -371,7 +368,6 @@
 
 <?php include './layouts/common_scripts.php'; ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script type="text/javascript" src="./assets/js/jquery.numscroller-1.0.js"></script>
 <script type="text/javascript">
 $('.success_stories_carousel').owlCarousel({

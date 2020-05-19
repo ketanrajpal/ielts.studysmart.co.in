@@ -6,32 +6,122 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Offline Training | Study Smart</title>
 		<?php include '../layouts/common_styles.php'; ?>
+		<style type="text/css">
+			.offline_training_bg{
+			    height: 85vh;
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			    background-position: center;
+			    width: 100%;
+			}
+			.video_text_block{
+			    z-index:1;
+			    text-align: right;
+			    position: absolute;
+			    right: 0px;
+			    width: 700px;
+			    top:160px;
+			    left: unset;
+			}
+			.animate_main_head{
+			    color: #1a202e;
+			    text-shadow: unset;
+			}
+			.animate_main_sub_head{
+				color: #1a202e;
+				text-shadow: unset;
+			}
+			.page-heading-text:after{
+			    content: "";
+			    display: block;
+			    width: 65px;
+			    height: 3px;
+			    background-color: #2aa1cb;
+			    margin-top: 8px;
+			    margin: 3px 0px 0px 0px;
+			}
+		</style>
 	</head>
 	<body>
 		<?php include '../layouts/header.php'; ?>
 		
-		<div class="container mt-3">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="text-center pb-2 page-heading-text">Crack the IELTS Exam with the help of our Cambridge Certified Trainers.<br><small class="text-dark font-size25">Get the Study Smart Advantage</small></h2>
+		<div class="offline_training_bg" style="background-image: url('<?php echo (COMMON_CALL_URL.'/assets/img/offline_training.jpg'); ?>')">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="video_text_block">
+							<h2 class="animate_main_head">Crack the IELTS Exam with the help of our Cambridge Certified Trainers.</h2>
+							<h4 class="animate_main_sub_head">Get the Study Smart Advantage</h4>
+							<p class="pt-4">
+								<a href="#" class="animate_main_tag_link">Get Started</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+
+
+		<?php
+			$studySmartAdv = [
+								[
+									'img' 	=> 'live_class.png',
+									'title' => 'State of the Art Infrastructure',
+									'desc' 	=> 'Our Centers are equipped with high tech classrooms with Smart Boards, Library and facilities for students.',
+								],
+								[
+									'img' 	=> 'one_roof.png',
+									'title' => 'Guidance & Support from the Best Trainers',
+									'desc' 	=> 'Our Trainers are Cambridge & British Council Certified, carry years of training experience & provide One to One Support and Mentoring to students',
+								],
+								[
+									'img' 	=> 'certified_trainer.png',
+									'title' => 'Everything Under One Roof',
+									'desc' 	=> 'Our Online Portal is a One-Stop Shop for all Interactive Lessons, Tips & Tricks, Study Material, Recorded Classes, Mock Tests, Learning Resources and More!',
+								],
+								[
+									'img' 	=> 'anytime.png',
+									'title' => 'Comprehensive Mock Tests',
+									'desc' 	=> 'Get access to Module Wise and Full Length Scored Mock test with Evaluations, Personalized Feedback and Score Predictor',
+								],
+								[
+									'img' 	=> 'mock_test.png',
+									'title' => 'Flexible Batches',
+									'desc' 	=> 'We have multiple Weekday Batches and choice of Taking Weekend and Fast Track batches.',
+								],
+								[
+									'img' 	=> 'improvement.png',
+									'title' => 'Improvement Guaranteed',
+									'desc' 	=> 'We have trained over 12,000 students with a 96% success rate. Become a part of our Success Story!',
+								],
+							];
+		?>
+
+		<div class="bg-white pt-4 pb-3">
+			<div class="container">
+				<div class="row mt-1">
+					<?php
+						foreach($studySmartAdv as $item): ?>
+							<div class="col-lg-4 mt-2 mb-2">
+								<div class="study_smart_adv">
+									<img src="<?php echo (COMMON_CALL_URL.'/assets/img/'.$item['img']); ?>" alt="" width="60">
+									<h2><?php echo $item['title']; ?></h2>
+									<p><?php echo $item['desc']; ?></p>
+								</div>
+							</div>
+						<?php endforeach;
+					?>
 				</div>
 			</div>
-			<div class="row mt-3">
-				<div class="col-md-12">
-					<ul class="list-unstyled">
-						<li class="page-para-text pt-2 pb-2"><span class="font-weight-bold">State of the Art Infrastructure</span> - Our Centers are equipped with high tech classrooms with Smart Boards, Library and facilities for students.</li>	
-						<li class="page-para-text pt-2 pb-2"><span class="font-weight-bold">Guidance & Support from the Best Trainers</span> - Our Trainers are Cambridge & British Council Certified, carry years of training experience & provide One to One Support and Mentoring to students</li>
-						<li class="page-para-text pt-2 pb-2"><span class="font-weight-bold">Everything Under One Roof</span> - Our Online Portal is a One-Stop Shop for all Interactive Lessons, Tips & Tricks, Study Material, Recorded Classes, Mock Tests, Learning Resources and More! </li>
-						<li class="page-para-text pt-2 pb-2"><span class="font-weight-bold">Comprehensive Mock Tests</span> - Get access to Module Wise and Full Length Scored Mock test with Evaluations, Personalized Feedback and Score Predictor</li>
-						<li class="page-para-text pt-2 pb-2"><span class="font-weight-bold">Flexible Batches</span> - We have multiple Weekday Batches and choice of Taking Weekend and Fast Track batches. </li>
-						<li class="page-para-text pt-2 pb-2"><span class="font-weight-bold">Improvement Guaranteed</span> - We have trained over 12,000 students with a 96% success rate. Become a part of our Success Story!</li>
-					</ul>
-				</div>
-			</div>
+		</div>
+
+
+
+		<div class="container">
 			<hr>
 			<div class="row mt-4">
 				<div class="col-md-8">
-					<h2 class="text-left pb-2 page-heading-text">Course Offering</h2>
+					<h2 class="text-left pb-2 page-heading-text">IELTS Week Day Course Offering</h2>
 					<ul class="list-unstyled">
 						<li class="pb-2"><span class="fa fa-check"></span> 32 hours of classes</li>
 						<li class="pb-2"><span class="fa fa-check"></span> 120 + hours of self guided personal training through our skill building lessons on the online portal </li>
@@ -48,23 +138,107 @@
 						<li class="pb-2"><span class="fa fa-check"></span> New batches Starting Every week </li>
 					</ul>
 				</div>
-				<div class="col-md-4 d-none">
+			</div>
+			<div class="row mt-4 mb-5">
+				<div class="col-md-6">
 					<h2 class="text-left pb-2 page-heading-text">Live Classes Schedule</h2>
 					<div class="courses_block">
-						<p>Duration: Friday to Sunday</p>
-						<p>Timings</p>
-						<ul class="list-unstyled">
-							<li><span class="fa fa-clock"></span> 7:00 PM – 9:00 PM</li>
-						</ul>
-
-						<p>Duration: Saturday & Sunday</p>
-						<p>Timings</p>
-						<ul class="list-unstyled">
-							<li><span class="fa fa-clock"></span> 10:00 AM – 2:00 PM</li>
-							<li><span class="fa fa-clock"></span> 2:00 PM – 6:00 PM</li>
-						</ul>
-						<div class="mt-2">
-							<button class="btn btn-primary btn-block">Pricing:  Rs. <?php echo number_format(10500,2); ?>/- plus taxes</button>
+						<div>
+							<p>IELTS Coaching in Delhi, Pune & Thane- Batch Timings</p>
+							<p>Regular IELTS Training Batch</p>
+							<p>Duration: Monday to Thursday for 4 weeks</p>
+							<p>Timings:</p>
+							<ul class="list-unstyled">
+								<li><span class="fa fa-clock"></span> 10:00 AM to 12:00 PM</li>
+								<li><span class="fa fa-clock"></span> 04:00 AM to 06:00 PM</li>
+							</ul>
+						</div>
+						<hr>
+						<div>
+							<p>Weekend IELTS Training Batch</p>
+							<p>Duration: Saturday to Sunday for 4 weeks</p>								
+							<p>Timings:</p>
+							<ul class="list-unstyled">
+								<li><span class="fa fa-clock"></span> 10:00 AM to 02:00 PM</li>
+							</ul>
+						</div>
+						<hr>
+						<div>
+							<p>Fast Track IELTS Training Batch</p>
+							<p>Duration: Monday to Thursday for 2 weeks</p>
+							<p>Timings:</p>
+							<ul class="list-unstyled">
+								<li><span class="fa fa-clock"></span> 10:00 AM to 12:00 PM</li>
+							</ul>
+						</div>
+						<hr>
+						<div>
+							<p>Fast Track IELTS Training Batch</p>
+							<p>Duration: Saturday to Sunday for 2 weeks</p>
+							<p>Timings:</p>
+							<ul class="list-unstyled">
+								<li><span class="fa fa-clock"></span> 10:00 AM to 02:00 PM</li>
+							</ul>
+						</div>
+						<hr>
+						<div class="mt-4">
+							<button class="btn btn-outline-primary btn-block">Full IELTS Training Programme: Rs. 9500 + taxes</button>
+						</div>
+						<div class="mt-3">
+							<button class="btn btn-outline-primary btn-block">16 hrs/ 2 modules: Rs. 7000 + taxes</button>
+						</div>
+						<div class="mt-3">
+							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2 class="text-left pb-2 page-heading-text">Live Classes Schedule</h2>
+					<div class="courses_block">
+						<div>
+							<p>IELTS Coaching in Surat - Batch Timings</p>
+							<p>Regular IELTS Training Batch</p>
+							<p>Duration: Monday to Friday</p>
+							<p>Timings:</p>
+							<ul class="list-unstyled">
+								<li><span class="fa fa-clock"></span> 09:00 AM to 11:00 AM</li>
+								<li><span class="fa fa-clock"></span> 07:00 PM to 09:00 PM</li>
+							</ul>
+						</div>
+						<hr>
+						<div>
+							<p>Weekend IELTS Training Batch</p>
+							<p>Duration: Saturday and Sunday</p>
+							<p>Timings:</p>
+							<ul class="list-unstyled">
+								<li><span class="fa fa-clock"></span> 10:00 AM to 02:00 PM</li>
+								<li><span class="fa fa-clock"></span> 04:00 PM to 08:00 PM</li>
+							</ul>
+						</div>
+						<hr>
+						<div>
+							<p>Intensive IELTS Training Batch</p>
+							<p>Duration: Monday to Friday</p>
+							<p>Timings:</p>
+							<ul class="list-unstyled">
+								<li><span class="fa fa-clock"></span> 04:00 PM  to 07:00 PM</li>
+							</ul>
+						</div>
+						<hr>
+						<div>
+							<p>Spoken English Training Batch</p>
+							<p>Duration: Monday to Friday for 4 weeks</p>
+							<p>Timings:</p>
+							<ul class="list-unstyled">
+								<li><span class="fa fa-clock"></span> 12:00 PM to 02:00 PM</li>
+							</ul>
+						</div>
+						<hr>
+						<div class="mt-4">
+							<button class="btn btn-outline-primary btn-block">IELTS Training Programme: Rs. 12500 + taxes</button>
+						</div>
+						<div class="mt-3">
+							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
 						</div>
 					</div>
 				</div>

@@ -50,14 +50,17 @@
 						<p>Duration: Monday to Thursday for 4 weeks</p>
 						<p>Timings</p>
 						<ul class="list-unstyled">
-							<li><span class="fa fa-clock"></span> 10 AM to 12 PM</li>
-							<li><span class="fa fa-clock"></span> 12 PM to 2 PM</li>
-						    <li><span class="fa fa-clock"></span> 2:30 PM to 4:30 PM</li>
-						    <li><span class="fa fa-clock"></span> 4 PM to 6 PM</li>
-						    <li><span class="fa fa-clock"></span> 7:00 PM to 9 PM</li>
+							<li><span class="fa fa-clock"></span> 10:00 AM 	to 	12:00 PM</li>
+							<li><span class="fa fa-clock"></span> 12:00 PM 	to 	02:00 PM</li>
+						    <li><span class="fa fa-clock"></span> 02:30 PM 	to 	04:30 PM</li>
+						    <li><span class="fa fa-clock"></span> 04:00 PM 	to 	06:00 PM</li>
+						    <li><span class="fa fa-clock"></span> 07:00 PM 	to 	09:00 PM</li>
 						</ul>
 						<div class="mt-2">
-							<button class="btn btn-primary btn-block">Pricing:  Rs. <?php echo number_format(10500,2); ?>/- plus taxes</button>
+							<button class="btn btn-outline-dark btn-block">Pricing:  Rs. <?php echo number_format(10500,2); ?>/- plus taxes</button>
+						</div>
+						<div class="mt-3">
+							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
 						</div>
 					</div>
 				</div>
@@ -91,17 +94,20 @@
 						<p>Duration: Friday to Sunday for 4 weeks</p>
 						<p>Timings</p>
 						<ul class="list-unstyled">
-							<li><span class="fa fa-clock"></span> 7:00 PM – 9:00 PM</li>
+							<li><span class="fa fa-clock"></span> 7:00 PM to 9:00 PM</li>
 						</ul>
 
 						<p>Duration: Saturday & Sunday for 4 weeks</p>
 						<p>Timings</p>
 						<ul class="list-unstyled">
-							<li><span class="fa fa-clock"></span> 10:00 AM – 2:00 PM</li>
-							<li><span class="fa fa-clock"></span> 2:00 PM – 6:00 PM</li>
+							<li><span class="fa fa-clock"></span> 10:00 AM to 02:00 PM</li>
+							<li><span class="fa fa-clock"></span> 02:00 PM to 06:00 PM</li>
 						</ul>
 						<div class="mt-2">
-							<button class="btn btn-primary btn-block">Pricing:  Rs. <?php echo number_format(10500,2); ?>/- plus taxes</button>
+							<button class="btn btn-outline-dark btn-block">Pricing:  Rs. <?php echo number_format(10500,2); ?>/- plus taxes</button>
+						</div>
+						<div class="mt-3">
+							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
 						</div>
 					</div>
 				</div>
@@ -136,14 +142,17 @@
 						<p>Duration: Monday to Thursday for 8 weeks</p>
 						<p>Timings</p>
 						<ul class="list-unstyled">
-							<li><span class="fa fa-clock"></span> 10 AM to 12 PM</li>
-							<li><span class="fa fa-clock"></span>12 PM to 2 PM</li>
-							<li><span class="fa fa-clock"></span>2:30 PM to 4:30 PM</li>
-							<li><span class="fa fa-clock"></span>4 PM to 6 PM</li>
-							<li><span class="fa fa-clock"></span>7:00 PM to 9 PM</li>
+							<li><span class="fa fa-clock"></span> 10:00 AM to 12:00 PM</li>
+							<li><span class="fa fa-clock"></span> 12:00 PM to 02:00 PM</li>
+							<li><span class="fa fa-clock"></span> 02:30 PM to 04:30 PM</li>
+							<li><span class="fa fa-clock"></span> 04:00 PM to 06:00 PM</li>
+							<li><span class="fa fa-clock"></span> 07:00 PM to 09:00 PM</li>
 						</ul>
 						<div class="mt-2">
-							<button class="btn btn-primary btn-block">Pricing:  Rs. <?php echo number_format(16500,2); ?>/- plus taxes</button>
+							<button class="btn btn-outline-dark btn-block">Pricing:  Rs. <?php echo number_format(16500,2); ?>/- plus taxes</button>
+						</div>
+						<div class="mt-3">
+							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
 						</div>
 					</div>
 				</div>

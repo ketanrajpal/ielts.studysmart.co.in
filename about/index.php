@@ -30,9 +30,73 @@
 					<p class="page-para-text text-justify pt-2 pb-4">Most members of the Study Smart Team have studied, lived or worked abroad; hence they are in an ideal position to guide students with realities of studying abroad. Our team of counselors has extensively rich knowledge in the field of overseas education that has been gained over years of industry experience. In addition all our counselors have gone through extensive training and are certified for student counseling by NBCC, UK</p>
 				</div>
 			</div>
+
+			<?php
+				$aboutLogoArr = [
+										[
+											'logo' 	=> 'about_logo_1.png',
+										],
+										[
+											'logo' 	=> 'about_logo_2.png',
+										],
+										[
+											'logo' 	=> 'about_logo_3.png',
+										],
+										[
+											'logo' 	=> 'about_logo_4.png',
+										],
+									];
+			?>
+
+			<div class="pt-4 pb-5">
+				<div class="">
+					<div class="row mt-3">
+						<div class="col-lg-12">
+							<div class="owl-carousel logo_bottom owl-theme">
+								<?php foreach($aboutLogoArr as $item): ?>
+									<div class="item pl-2 pr-2">
+										<div class="">
+											<div class="row mt-2">
+												<div class="col-12 col-sm-12 col-md-12 col-lg-12 pt-0 pb-0 pl-5 pr-5">
+													<img class="" data-src="<?php echo (COMMON_CALL_URL.'/assets/img/'.$item['logo']); ?>" src="<?php echo (COMMON_CALL_URL.'/assets/img/'.$item['logo']); ?>">
+												</div>
+											</div>
+										</div>
+									</div>
+								<?php endforeach; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 
 		<?php include("../layouts/footer.php"); ?>
 		<?php include '../layouts/common_scripts.php'; ?>
-	</body>
+
+<script type="text/javascript">
+$('.logo_bottom').owlCarousel({
+	loop:true,	
+	margin:10,
+	nav:false,
+	autoplay: true,
+	lazyLoad: true,
+	autoplayTimeout: 4000,
+	autoplayHoverPause: true,
+	responsive:{
+		0:{
+			items:1
+		},
+		600:{
+			items:2
+		},
+		1000:{
+			items:4
+		}
+	}
+});
+</script>
+
+</body>
 </html>

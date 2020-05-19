@@ -56,7 +56,7 @@
 
 <div class="phone_call_block">
     <a href="tel:+919650680072">
-        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/phone_call.png'); ?>" width="64">
+        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/phone_call.png'); ?>" width="60">
     </a>
 </div>
 <div class="whatsapp_block">
