@@ -329,7 +329,7 @@
 						</a>
 					</div>
 					<div class="col-lg-4">
-						<a href="<?php echo (COMMON_CALL_URL.'/faqs'); ?>" class="text-decoration-none">
+						<a href="<?php echo (COMMON_CALL_URL.'/test-faqs'); ?>" class="text-decoration-none">
 							<h2 class="text-center mt-4 main_heading_text">IELTS Test FAQs</h2>
 						</a>
 					</div>
