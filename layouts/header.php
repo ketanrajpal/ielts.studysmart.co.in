@@ -13,7 +13,7 @@
 		      	</li>
 				<li class="nav-item"><a class="p-3 main-menu-link" href="<?php echo (COMMON_CALL_URL.'/courses'); ?>"><span class="fa fa-university"></span> Courses</a></li>
 				<li class="nav-item"><a class="p-3 main-menu-link" href="<?php echo (COMMON_CALL_URL.'/offline-training'); ?>"><span class="fa fa-pen-fancy"></span> Offline Training</a></li>
-				<li class="nav-item"><a class="p-3 main-menu-link" href="#"><span class="fa fa-at"></span> Contact</a></li>
+				<li class="nav-item"><a class="p-3 main-menu-link" href="<?php echo (COMMON_CALL_URL.'/contact'); ?>"><span class="fa fa-at"></span> Contact</a></li>
 		    </ul>
 		    <form class="my-2 my-lg-0">
 		    	<div class="btn-group" role="group" aria-label="Basic example">

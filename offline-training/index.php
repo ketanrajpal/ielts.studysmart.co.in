@@ -42,6 +42,16 @@
 			.bottom_blue_bar:after{
 			    margin: 0 auto !important;
 			}
+
+			@media only screen and (max-width: 763px) {
+				.offline_training_bg{
+					height: 40vh;
+				}
+				.video_text_block{
+				    width: unset;
+				    top: 80px;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -156,10 +166,10 @@
 				<div class="col-md-6">
 					<div class="courses_block">
 						<div>
-							<p>IELTS Coaching in Delhi, Pune & Thane- Batch Timings</p>
-							<p>Regular IELTS Training Batch</p>
-							<p>Duration: Monday to Thursday for 4 weeks</p>
-							<p>Timings:</p>
+							<p class="font-weight-bold">IELTS Coaching in Delhi, Pune & Thane- Batch Timings</p>
+							<p class="font-weight-bold">Regular IELTS Training Batch</p>
+							<p><span class="font-weight-bold">Duration</span>: Monday to Thursday for 4 weeks</p>
+							<p class="font-weight-bold">Timings:</p>
 							<ul class="list-unstyled">
 								<li><span class="fa fa-clock"></span> 10:00 AM to 12:00 PM</li>
 								<li><span class="fa fa-clock"></span> 04:00 AM to 06:00 PM</li>
@@ -167,34 +177,34 @@
 						</div>
 						<hr>
 						<div>
-							<p>Weekend IELTS Training Batch</p>
-							<p>Duration: Saturday to Sunday for 4 weeks</p>								
-							<p>Timings:</p>
+							<p class="font-weight-bold">Weekend IELTS Training Batch</p>
+							<p><span class="font-weight-bold">Duration</span>: Saturday to Sunday for 4 weeks</p>								
+							<p class="font-weight-bold">Timings:</p>
 							<ul class="list-unstyled">
 								<li><span class="fa fa-clock"></span> 10:00 AM to 02:00 PM</li>
 							</ul>
 						</div>
 						<hr>
 						<div>
-							<p>Fast Track IELTS Training Batch</p>
-							<p>Duration: Monday to Thursday for 2 weeks</p>
-							<p>Timings:</p>
+							<p class="font-weight-bold">Fast Track IELTS Training Batch</p>
+							<p><span class="font-weight-bold">Duration</span>: Monday to Thursday for 2 weeks</p>
+							<p class="font-weight-bold">Timings:</p>
 							<ul class="list-unstyled">
 								<li><span class="fa fa-clock"></span> 10:00 AM to 12:00 PM</li>
 							</ul>
 						</div>
 						<hr>
 						<div>
-							<p>Fast Track IELTS Training Batch</p>
-							<p>Duration: Saturday to Sunday for 2 weeks</p>
-							<p>Timings:</p>
+							<p class="font-weight-bold">Fast Track IELTS Training Batch</p>
+							<p class=""><span class="font-weight-bold">Duration</span>: Saturday to Sunday for 2 weeks</p>
+							<p class="font-weight-bold">Timings:</p>
 							<ul class="list-unstyled">
 								<li><span class="fa fa-clock"></span> 10:00 AM to 02:00 PM</li>
 							</ul>
 						</div>
 						<hr>
 						<div class="mt-4">
-							<button class="btn btn-outline-primary btn-block">Pricing : Rs. 9500 + taxes</button>
+							<button class="btn btn-outline-primary btn-block font-weight-bold">Pricing : Rs. 9500 + taxes</button>
 						</div>
 						<div class="mt-3">
 							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
@@ -204,10 +214,10 @@
 				<div class="col-md-6">
 					<div class="courses_block">
 						<div>
-							<p>IELTS Coaching in Surat - Batch Timings</p>
-							<p>Regular IELTS Training Batch</p>
-							<p>Duration: Monday to Friday</p>
-							<p>Timings:</p>
+							<p class="font-weight-bold">IELTS Coaching in Surat - Batch Timings</p>
+							<p class="font-weight-bold">Regular IELTS Training Batch</p>
+							<p class=""><span class="font-weight-bold">Duration</span>: Monday to Friday</p>
+							<p class="font-weight-bold">Timings:</p>
 							<ul class="list-unstyled">
 								<li><span class="fa fa-clock"></span> 09:00 AM to 11:00 AM</li>
 								<li><span class="fa fa-clock"></span> 07:00 PM to 09:00 PM</li>
@@ -215,34 +225,34 @@
 						</div>
 						<hr>
 						<div>
-							<p>Weekend IELTS Training Batch</p>
-							<p>Duration: Saturday and Sunday</p>
-							<p>Timings:</p>
+							<p class="font-weight-bold">Weekend IELTS Training Batch</p>
+							<p class=""><span class="font-weight-bold">Duration</span>: Saturday and Sunday</p>
+							<p class="font-weight-bold">Timings:</p>
 							<ul class="list-unstyled">
 								<li><span class="fa fa-clock"></span> 10:00 AM to 02:00 PM & 04:00 PM to 08:00 PM</li>
 							</ul>
 						</div>
 						<hr>
 						<div>
-							<p>Intensive IELTS Training Batch</p>
-							<p>Duration: Monday to Friday</p>
-							<p>Timings:</p>
+							<p class="font-weight-bold">Intensive IELTS Training Batch</p>
+							<p class=""><span class="font-weight-bold">Duration</span>: Monday to Friday</p>
+							<p class="font-weight-bold">Timings:</p>
 							<ul class="list-unstyled">
 								<li><span class="fa fa-clock"></span> 04:00 PM  to 07:00 PM</li>
 							</ul>
 						</div>
 						<hr>
 						<div>
-							<p>Spoken English Training Batch</p>
-							<p>Duration: Monday to Friday for 4 weeks</p>
-							<p>Timings:</p>
+							<p class="font-weight-bold">Spoken English Training Batch</p>
+							<p class=""><span class="font-weight-bold">Duration</span>: Monday to Friday for 4 weeks</p>
+							<p class="font-weight-bold">Timings:</p>
 							<ul class="list-unstyled">
 								<li><span class="fa fa-clock"></span> 12:00 PM to 02:00 PM</li>
 							</ul>
 						</div>
 						<hr>
 						<div class="mt-4">
-							<button class="btn btn-outline-primary btn-block">Pricing : Rs. 12500 + taxes</button>
+							<button class="btn btn-outline-primary btn-block font-weight-bold">Pricing : Rs. 12500 + taxes</button>
 						</div>
 						<div class="mt-3">
 							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>

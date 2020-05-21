@@ -15,7 +15,7 @@
                     <li class="margin-top5 margin-bottom5"><a class="text-white" href="<?php echo (COMMON_CALL_URL.'/about'); ?>">About</a></li>
                     <li class="margin-top5 margin-bottom5"><a class="text-white" href="<?php echo (COMMON_CALL_URL.'/courses'); ?>">Courses</a></li>
                     <li class="margin-top5 margin-bottom5"><a class="text-white" href="<?php echo (COMMON_CALL_URL.'/offline-training'); ?>">Offline Training</a></li>
-                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="">Contact</a></li>
+                    <li class="margin-top5 margin-bottom5"><a class="text-white" href="<?php echo (COMMON_CALL_URL.'/contact'); ?>">Contact</a></li>
                     <li class="margin-top5 margin-bottom5"><a class="text-white" href="http://portal.studysmart.co.in/">Log In / Free Trial</a></li>
                 </ul>
             </div>
@@ -68,4 +68,25 @@
     <a href="#">
         <img src="<?php echo (COMMON_CALL_URL.'/assets/img/back_to_top.png'); ?>" width="40">
     </a>
+</div>
+
+
+<div class="modal fade" id="thanks_popup_call_msg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Thank you...</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-12 text-center">
+                        <h2 class="pl-3 pr-3 thank_you_msg_heading">Our counsellors will contact you within 24 hrs for further assistance</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
