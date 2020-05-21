@@ -9,7 +9,7 @@
 		<ol type="1">
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Speaking Test - Part 1</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>
 						Make a list of all possible topics you could be interviewed on:
 						<ul>
@@ -43,7 +43,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Speaking Test - Part 2</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Read the topic card carefully: Make sure that you have understood what you need to talk about.</li>
 					<li>Jot down a few points: Pen down a few points to answer the prompts on the topic card. Don’t waste time in writing sentences.</li>
 					<li>Answer both parts of the topic Card: Make sure you answer the description as well as the explanation part of the topic card.</li>
@@ -53,7 +53,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For For IELTS Speaking Test - Part 3</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Read English Language: Make it a habit to read English language newspapers and watch the news reports to keep yourself updated on everyday topics</li>
 					<li>
 						Think about the language: Ponder upon the language which will be useful example.
@@ -69,7 +69,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>General Tips Before The For IELTS Speaking Test </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Try and talk in English as much as possible.</li>
 					<li>Remember the more familiar you are with everyday social English the more fluent you will sound.</li>
 					<li>Make sure you are familiar with the structure of the test.</li>
@@ -78,7 +78,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>General Tips During The For IELTS Speaking Test</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Your appearance may have an unconscious effect on the examiner, so dress neatly.</li>
 					<li>Arrive early. Sometimes examiners get ahead of their schedule.</li>
 					<li>Try to look confident. Don’t fold your arms.</li>

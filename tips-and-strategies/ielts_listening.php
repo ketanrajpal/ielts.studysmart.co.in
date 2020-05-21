@@ -9,7 +9,7 @@
 		<ol type="1">
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Listening Questions - Multiple Choice </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>
 						Skim the questions and the answer choices quickly: Skim the IELTS Listening questions and the answer choices quickly before the recording starts. As you do this,
 						<ul>
@@ -31,7 +31,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Listening Questions - Short Answer </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>
 						Skim the IELTS Listening questions quickly: Skim the questions quickly before the recording starts and during the 30 seconds given. As you do this,
 						<ul>
@@ -48,7 +48,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Listening Questions  - Sentence Completion </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>
 						Read the sentences carefully: Read the sentences carefully before the recording starts and during the 30 seconds given. As you do this,
 						<ul>
@@ -67,7 +67,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Listening Questions –notes / Table / Summary / Form / Flowchart / Diagram </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>
 						Read the sentences carefully: Look at the table or form etc carefully before the recording starts and during the 30 seconds given. As you do this,
 						<ul>
@@ -91,7 +91,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For  IELTS Listening Questions - Labelling A Diagram Which Has Labelled Part</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Read the instructions carefully: They will state how many words you should use if there is not a box of labels provided. You could be asked to write one word only.</li>
 					<li>Study the diagram: You may be able to predict one or two answers or associated vocabulary that you may hear connected to a particular label.</li>
 					<li>Check whether the labels are numbered in a clockwise or anti - clockwise direction: The information will be given in the same order as the numbers on the diagram.Write down or select the labels as you listen. Use the words you hear, not your own.</li>
@@ -101,7 +101,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>General Tips For IELTS Listening Test:</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>
 						Before the exam
 						<ul>
@@ -122,7 +122,7 @@
 					</li>
 					<li>
 						During the exam
-						<ol type="a">
+						<ol class="mt-1" type="a">
 							<li>
 								Before listening
 								<ul>

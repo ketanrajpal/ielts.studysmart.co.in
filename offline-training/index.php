@@ -18,18 +18,14 @@
 			    z-index:1;
 			    text-align: left;
 			    position: absolute;
-			    left: 0px
-			    right: 0px;
+			    left: 10px; 
+			    right: 10px;
 			    width: 670px;
 			    top:160px;
 			}
 			.animate_main_head{
 			    color: #1a202e;
-			    text-shadow: unset;
-			}
-			.animate_main_sub_head{
-				color: #1a202e;
-				text-shadow: unset;
+		        text-shadow: 4px 4px 3px rgba(152, 152, 152, 0.6);
 			}
 			.page-heading-text:after{
 			    content: "";
@@ -40,8 +36,11 @@
 			    margin-top: 8px;
 			    margin: 3px 0px 0px 0px;
 			}
-			.main_heading_text:after {
-			    margin: 0 0;
+			.study_smart_adv{
+				height: 250px;
+			}
+			.bottom_blue_bar:after{
+			    margin: 0 auto !important;
 			}
 		</style>
 	</head>
@@ -72,29 +71,29 @@
 									'desc' 	=> 'Our Centers are equipped with high tech classrooms with Smart Boards, Library and facilities for students.',
 								],
 								[
-									'img' 	=> 'one_roof.png',
-									'title' => 'Guidance & Support from the Best Trainers',
-									'desc' 	=> 'Our Trainers are Cambridge & British Council Certified, carry years of training experience & provide One to One Support and Mentoring to students',
-								],
-								[
 									'img' 	=> 'certified_trainer.png',
-									'title' => 'Everything Under One Roof',
-									'desc' 	=> 'Our Online Portal is a One-Stop Shop for all Interactive Lessons, Tips & Tricks, Study Material, Recorded Classes, Mock Tests, Learning Resources and More!',
+									'title' => 'Certified & Experience Trainers',
+									'desc' 	=> 'Our Trainers are Cambridge & British Council Certified, carry Years of Experience & provide One to One Support & Mentoring to students',
 								],
 								[
-									'img' 	=> 'anytime.png',
-									'title' => 'Comprehensive Mock Tests',
-									'desc' 	=> 'Get access to Module Wise and Full Length Scored Mock test with Evaluations, Personalized Feedback and Score Predictor',
+									'img' 	=> 'one_roof.png',
+									'title' => 'Everything Under One Roof',
+									'desc' 	=> 'Our Online Portal is a One-Stop Shop for Interactive Lessons, Tips, Study Material, Recorded Classes, Mock Tests, Learning Resources & More!',
 								],
 								[
 									'img' 	=> 'mock_test.png',
+									'title' => 'Comprehensive Mock Tests',
+									'desc' 	=> 'Get access to Module Wise and Full Length Scored Mock test with Evaluations, Personalized Feedback & Score Predictor',
+								],
+								[
+									'img' 	=> 'anytime.png',
 									'title' => 'Flexible Batches',
-									'desc' 	=> 'We have multiple Weekday Batches and choice of Taking Weekend and Fast Track batches.',
+									'desc' 	=> 'We have multiple Weekday Batches and choice of Taking Weekend and Fast Track batches as per your convenience.',
 								],
 								[
 									'img' 	=> 'improvement.png',
 									'title' => 'Improvement Guaranteed',
-									'desc' 	=> 'We have trained over 12,000 students with a 96% success rate. Become a part of our Success Story!',
+									'desc' 	=> 'Having trained over 12,000 Students with a 96% Success Rate, We Guarantee an Improvement. Become a part of our Success Story!',
 								],
 							];
 		?>
@@ -103,7 +102,7 @@
 			<div class="container">
 				<div class="row mb-2">
 					<div class="col-lg-12">
-						<h2 class="text-left pb-2 main_heading_text">Get The Study Smart Advantage</h2>
+						<h2 class="text-center pb-2 main_heading_text">Get The Study Smart Advantage</h2>
 					</div>
 				</div>
 				<div class="row mt-1">
@@ -146,9 +145,15 @@
 					</ul>
 				</div>
 			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center page-heading-text bottom_blue_bar">Class Schedule</h2>
+				</div>
+			</div>
+
 			<div class="row mt-4 mb-5">
 				<div class="col-md-6">
-					<h2 class="text-left pb-2 page-heading-text">Live Classes Schedule</h2>
 					<div class="courses_block">
 						<div>
 							<p>IELTS Coaching in Delhi, Pune & Thane- Batch Timings</p>
@@ -197,7 +202,6 @@
 					</div>
 				</div>
 				<div class="col-md-6">
-					<h2 class="text-left pb-2 page-heading-text">Live Classes Schedule</h2>
 					<div class="courses_block">
 						<div>
 							<p>IELTS Coaching in Surat - Batch Timings</p>

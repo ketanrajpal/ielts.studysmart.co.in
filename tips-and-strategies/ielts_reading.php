@@ -9,7 +9,7 @@
 		<ol type="1">
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Reading Question - Multiple Choice </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Read the instructions carefully: Read the instructions carefully and check how many letters you need to underline.</li>
 					<li>
 						Skim all the  IELTS Reading questions and the  answer  choices. Skim all the questions and the answer choices quickly. As you do this,
@@ -26,7 +26,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Reading Question  - Short Answer </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Read the instructions carefully:</li>
 					<li>
 						Skim all the questions quickly. As you do this:
@@ -43,7 +43,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Reading Question - Sentence Completion </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>
 						Quickly read through all the sentences halves: As you do this
 						<ul>
@@ -60,7 +60,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Reading Question – Notes / Table / Form / Summary / Flow Chart / Diagram Completion Questions </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>
 						Look at the table or form Carefully:
 						<ul>
@@ -80,7 +80,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Reading Question - Yes, No, Not Given Or True, False, Not Given</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Quickly read through all the statements to get an idea about the topic.</li>
 					<li>Read the first statement more carefully.	</li>
 					<li>Underline the key words so you understand the main point.</li>
@@ -92,7 +92,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Reading Question - Classification Questions</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Make sure you know how many classifications there are and what letters you have to use.</li>
 					<li>Read the classifications carefully and make sure you don’t confuse the letters which represent each one.</li>
 					<li>Read the statements/phrases or words beside the	question numbers and underline key words.</li>
@@ -104,7 +104,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For Matching:</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Take the names of the sources one by one and find them in the text and underline them.</li>
 					<li>When you have located a name, read carefully to see what is said about his/her opinions.</li>
 					<li>Look at the list of opinions and see if you can make a match.</li>
@@ -117,7 +117,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Reading Question - Choosing Headings</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Make sure you know which paragraphs or sections you have to sum up.</li>
 					<li>Read the first paragraph or section and try to sum up, in your own words, what it is about.</li>
 					<li>Then search through the bank of headings for the best answer.</li>
@@ -127,7 +127,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>Preparation Strategy For IELTS Reading Question - Labelling A Diagram Which Has Numbered Parts</strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>Study the diagram and the labels if they are given.</li>
 					<li>See if you can guess any of the answers.</li>
 					<li>The information will be given in the same order as the numbers on the diagram.</li>
@@ -136,7 +136,7 @@
 			</li>
 			<li class="font-family-lato mt-1 mb-2 pb-2">
 				<strong>General Tips For IELTS Reading Test </strong>
-				<ol type="a">
+				<ol class="mt-1" type="a">
 					<li>
 						Before the Exam
 						<ul>
