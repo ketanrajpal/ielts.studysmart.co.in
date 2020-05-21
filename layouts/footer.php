@@ -36,11 +36,11 @@
                 </div>
                 <div>
                     <ul class="list-inline footer_ul_li_social">
-                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li class="list-inline-item margin-right20"><a class="text-white" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="list-inline-item margin-right20"><a class="text-white" href="https://www.facebook.com/studysmart.co.in" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item margin-right20"><a class="text-white" href="https://twitter.com/GoStudySmart" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item margin-right20"><a class="text-white" href="https://www.instagram.com/study_smart_overseas/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item margin-right20"><a class="text-white" href="https://www.youtube.com/channel/UCvJ6fWbPt1RB_KTY_IK3hmw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li class="list-inline-item margin-right20"><a class="text-white" href="https://www.linkedin.com/company/study-smart/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
