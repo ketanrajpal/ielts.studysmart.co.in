@@ -165,8 +165,11 @@
 		<div class="bg-light pt-4 pb-5">
 			<div class="container">
 				<div class="row mb-2">
-					<div class="col-lg-12">
+					<div class="col-lg-6">
 						<h2 class="text-center mt-4 main_heading_text">Success Stories</h2>
+					</div>
+					<div class="col-lg-6">
+						<h2 class="text-center mt-4 main_heading_text">Intro Video</h2>
 					</div>
 				</div>
 				<div class="row mt-3">
@@ -191,11 +194,11 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="embed-responsive embed-responsive-21by9 mt-3">
-							<video controls loop class="embed-responsive-item">
+							<!-- <video controls loop class="embed-responsive-item">
 								<source src="./assets/video/intro_video.mp4" type="video/mp4" />
-							</video>
+							</video> -->
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m00AFWd0HOs"></iframe>
 						</div>
-						<h2 class="text-center mt-4 main_heading_text">Intro Video</h2>
 					</div>
 				</div>
 			</div>

@@ -44,7 +44,7 @@
 		<?php
 			$tipsStrategiesArr = [
 									[
-										'click_icon' 		=> 'click-on-it.png',
+										'click_icon' 		=> 'reading.png',
 										'link' 				=> 'first_tab',
 										'title' 			=> 'IELTS Reading',
 										'file_link' 		=> 'ielts_reading.php',
@@ -52,7 +52,7 @@
 										'first_state' 		=> 'true',
 									],
 									[
-										'click_icon' 		=> 'click-on-it.png',
+										'click_icon' 		=> 'speaking.png',
 										'link' 				=> 'second_tab',
 										'title' 			=> 'IELTS Speaking',
 										'file_link' 		=> 'ielts_speaking.php',
@@ -60,7 +60,7 @@
 										'first_state' 		=> 'false',
 									],
 									[
-										'click_icon' 		=> 'click-on-it.png',
+										'click_icon' 		=> 'writing.png',
 										'link' 				=> 'third_tab',
 										'title' 			=> 'IELTS Writing',
 										'file_link' 		=> 'ielts_writing.php',
@@ -68,7 +68,7 @@
 										'first_state' 		=> 'false',
 									],
 									[
-										'click_icon' 		=> 'click-on-it.png',
+										'click_icon' 		=> 'listening.png',
 										'link' 				=> 'fourth_tab',
 										'title' 			=> 'IELTS Listening',
 										'file_link' 		=> 'ielts_listening.php',

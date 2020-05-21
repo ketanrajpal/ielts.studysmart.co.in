@@ -222,13 +222,13 @@ body{font-family:"Raleway",sans-serif}
 .phone_call_block {
     position: fixed;
     z-index: 9999;
-    bottom: 175px;
+    bottom: 115px;
     right: 20px;
 }
 .whatsapp_block {
     position: fixed;
     z-index: 9999;
-    bottom: 100px;
+    bottom: 65px;
     right: 20px;
 }
 .back_to_top{

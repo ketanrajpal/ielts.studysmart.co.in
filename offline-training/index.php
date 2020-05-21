@@ -67,7 +67,7 @@
 		<?php
 			$studySmartAdv = [
 								[
-									'img' 	=> 'live_class.png',
+									'img' 	=> 'state-art-infrastructure.png',
 									'title' => 'State of the Art Infrastructure',
 									'desc' 	=> 'Our Centers are equipped with high tech classrooms with Smart Boards, Library and facilities for students.',
 								],

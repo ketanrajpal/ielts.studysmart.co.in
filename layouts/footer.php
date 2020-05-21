@@ -56,16 +56,16 @@
 
 <div class="phone_call_block">
     <a href="tel:+919650680072">
-        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/communications.png'); ?>" width="60">
+        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/communications.png'); ?>" width="38">
     </a>
 </div>
 <div class="whatsapp_block">
     <a href="javascript:void(0)" onclick="javascript:genericSocialShare('https://web.whatsapp.com/send?phone=+919650680072&text=Hello!%20I%27m%20having%20an%20query%20@https://www.studysmart.co.in/')">
-        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/whatsapp.png'); ?>" width="64">
+        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/whatsapp.png'); ?>" width="40">
     </a>
 </div>
 <div class="back_to_top">
     <a href="#">
-        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/back_to_top.png'); ?>" width="64">
+        <img src="<?php echo (COMMON_CALL_URL.'/assets/img/back_to_top.png'); ?>" width="40">
     </a>
 </div>
