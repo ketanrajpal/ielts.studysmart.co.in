@@ -42,7 +42,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 p-0">
-					<video autoplay muted loop class="background_video">
+					<video autoplay muted loop class="background_video" poster="./assets/img/home_page_video.jpg">
 						<source  src="./assets/video/new_video.mp4" type="video/mp4" />
 					</video>
 					<div class="video_text_block"> 
