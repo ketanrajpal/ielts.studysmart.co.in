@@ -6,6 +6,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Study Abroad, Overseas Education Consultants | Study Smart</title>
 		<?php include './layouts/common_styles.php'; ?>
+		<style type="text/css">
+			.bottom_section_layout{
+			    padding: 35px 15px 20px 15px;
+			    text-align: center;
+			    border: 1px solid #f7f7f7;
+			    border-radius: 10px;
+			    margin-top: 10px;
+			    margin-bottom: 10px;
+			    background-color: #f4fcff;
+			    max-height: 180px;
+			    height: 150px;
+			    overflow: hidden;
+			    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
+			}
+			.bottom_section_layout h2{
+			    color: #000000;
+			    font-size: 22px;
+			    font-weight: 900;
+			    font-family: "Lato",sans-serif;
+			}
+			.bottom_section_layout h2:after{
+			    content: "";
+			    display: block;
+			    width: 65px;
+			    height: 3px;
+			    background-color: #2aa1cb;
+			    margin-top: 10px;
+			    margin: 0 auto;
+			}
+		</style>
 	</head>
 	<body>
 		<?php include './layouts/header.php'; ?>
@@ -160,11 +190,12 @@
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<div class="embed-responsive embed-responsive-16by9">
+						<div class="embed-responsive embed-responsive-21by9 mt-3">
 							<video controls loop class="embed-responsive-item">
 								<source src="./assets/video/intro_video.mp4" type="video/mp4" />
 							</video>
 						</div>
+						<h2 class="text-center mt-4 main_heading_text">Intro Video</h2>
 					</div>
 				</div>
 			</div>
@@ -315,22 +346,28 @@
 			</div>
 		</div>
 
-		<div class="bg-light pt-4 pb-5">
+		<div class="bg-white pt-5 pb-5">
 			<div class="container">
 				<div class="row mb-2">
 					<div class="col-lg-4">
 						<a href="<?php echo (COMMON_CALL_URL.'/tips-and-strategies'); ?>" class="text-decoration-none">
-							<h2 class="text-center mt-4 main_heading_text">IELTS Tips and Strategies</h2>
+							<div class="bottom_section_layout">
+								<h2 class="text-center mt-4">IELTS Tips and Strategies</h2>
+							</div>
 						</a>
 					</div>
 					<div class="col-lg-4">
 						<a href="<?php echo (COMMON_CALL_URL.'/faqs'); ?>" class="text-decoration-none">
-							<h2 class="text-center mt-4 main_heading_text">IELTS Classes FAQs</h2>
+							<div class="bottom_section_layout">
+								<h2 class="text-center mt-4">IELTS Classes FAQs</h2>
+							</div>
 						</a>
 					</div>
 					<div class="col-lg-4">
 						<a href="<?php echo (COMMON_CALL_URL.'/test-faqs'); ?>" class="text-decoration-none">
-							<h2 class="text-center mt-4 main_heading_text">IELTS Test FAQs</h2>
+							<div class="bottom_section_layout">
+								<h2 class="text-center mt-4">IELTS Test FAQs</h2>
+							</div>
 						</a>
 					</div>
 				</div>

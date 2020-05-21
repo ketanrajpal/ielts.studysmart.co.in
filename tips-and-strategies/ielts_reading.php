@@ -7,8 +7,8 @@
 <div class="row mt-2">
 	<div class="col-md-12">
 		<ol type="1">
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Reading Question - Multiple Choice 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Reading Question - Multiple Choice </strong>
 				<ol type="a">
 					<li>Read the instructions carefully: Read the instructions carefully and check how many letters you need to underline.</li>
 					<li>
@@ -24,8 +24,8 @@
 					<li>Don't leave any questions unanswered.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Reading Question  - Short Answer 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Reading Question  - Short Answer </strong>
 				<ol type="a">
 					<li>Read the instructions carefully:</li>
 					<li>
@@ -41,8 +41,8 @@
 					<li>You don’t have to write a complete sentence but it does have to be grammatically correct.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Reading Question - Sentence Completion 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Reading Question - Sentence Completion </strong>
 				<ol type="a">
 					<li>
 						Quickly read through all the sentences halves: As you do this
@@ -58,8 +58,8 @@
 					<li>Make sure your sentences make sense both logically and grammatically.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Reading Question – Notes / Table / Form / Summary / Flow Chart / Diagram Completion Questions 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Reading Question – Notes / Table / Form / Summary / Flow Chart / Diagram Completion Questions </strong>
 				<ol type="a">
 					<li>
 						Look at the table or form Carefully:
@@ -78,8 +78,8 @@
 					</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Reading Question - Yes, No, Not Given Or True, False, Not Given
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Reading Question - Yes, No, Not Given Or True, False, Not Given</strong>
 				<ol type="a">
 					<li>Quickly read through all the statements to get an idea about the topic.</li>
 					<li>Read the first statement more carefully.	</li>
@@ -90,8 +90,8 @@
 					<li>Continue with the rest of the statements.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Reading Question - Classification Questions
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Reading Question - Classification Questions</strong>
 				<ol type="a">
 					<li>Make sure you know how many classifications there are and what letters you have to use.</li>
 					<li>Read the classifications carefully and make sure you don’t confuse the letters which represent each one.</li>
@@ -102,8 +102,8 @@
 					<li>Don’t leave any statements without a letter.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For Matching:
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For Matching:</strong>
 				<ol type="a">
 					<li>Take the names of the sources one by one and find them in the text and underline them.</li>
 					<li>When you have located a name, read carefully to see what is said about his/her opinions.</li>
@@ -115,8 +115,8 @@
 					<li>Phrases like ‘he said’ or ‘in his opinion’ should help you locate the arguments.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Reading Question - Choosing Headings
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Reading Question - Choosing Headings</strong>
 				<ol type="a">
 					<li>Make sure you know which paragraphs or sections you have to sum up.</li>
 					<li>Read the first paragraph or section and try to sum up, in your own words, what it is about.</li>
@@ -125,8 +125,8 @@
 					<li>If you have to sum up the entire text. Read the whole text before looking at the bank of headings.  Try to think of  your  own heading and then look at the options.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Reading Question - Labelling A Diagram Which Has Numbered Parts
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Reading Question - Labelling A Diagram Which Has Numbered Parts</strong>
 				<ol type="a">
 					<li>Study the diagram and the labels if they are given.</li>
 					<li>See if you can guess any of the answers.</li>
@@ -134,8 +134,8 @@
 					<li>Scan the text  to  find the  information. If labels are not provided, make sure you use words from the text.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				General Tips For IELTS Reading Test 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>General Tips For IELTS Reading Test </strong>
 				<ol type="a">
 					<li>
 						Before the Exam

@@ -7,8 +7,8 @@
 <div class="row mt-2">
 	<div class="col-md-12">
 		<ol type="1">
-			<li class="font-family-lato">
-				General Tips Of IELTS Writing Test <br>IELTS writing task is a time bound task and it very important for the student to understand the importance of time management in this module. If each aspect of writing has to be achieved then it is essential to allocate time and write accordingly. 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>General Tips Of IELTS Writing Test</strong> <br>IELTS writing task is a time bound task and it very important for the student to understand the importance of time management in this module. If each aspect of writing has to be achieved then it is essential to allocate time and write accordingly. 
 				<ol type="a">
 					<li>
 						Understanding the prompt/statement
@@ -58,8 +58,8 @@
 					</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Tips For IELTS Writing Task 1
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Tips For IELTS Writing Task 1</strong>
 				<ol type="a">
 					<li>Become familiar with the graph types. </li>
 					<li>Do lots of practice exercises in describing graphs. </li>
@@ -91,8 +91,8 @@
 					<li>Think about the topics that could be used for this task. </li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Letter Writing Tips
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Letter Writing Tips</strong>
 				<ol type="a">
 					<li>Make a Plan</li>
 					<li>Use the Correct Style</li>
@@ -105,8 +105,8 @@
 					<li>Don’t Be Overly Informal.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Tips For IELTS Writing Task 2:
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Tips For IELTS Writing Task 2:</strong>
 				<ol type="a">
 					<li>Study the question carefully. The instructions will always start with the sentence ‘Write about the following topic…’ and include the sentence beginning ‘Give reasons for your answer…’.</li>
 					<li>Underline key points in the question.</li>
@@ -124,15 +124,15 @@
 					<li>You will lose marks if your essay is less than the required number of words.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				General Tips For IELTS Writing Before The Exam
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>General Tips For IELTS Writing Before The Exam</strong>
 				<ol type="a">
 					<li>Practice writing answers to the tasks in the time allowed, especially if you haven’t written at speed by hand for a while.</li>
 					<li>Keep up-to-date with current affairs.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				General Tips For IELTS Writing During The Exam
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>General Tips For IELTS Writing During The Exam</strong>
 				<ol type="a">
 					<li>Use a pen. It should be easier to write faster with a pen.</li>
 					<li>Make sure you have a checklist in mind for editing your writing at the end. </li>

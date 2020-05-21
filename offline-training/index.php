@@ -20,7 +20,7 @@
 			    position: absolute;
 			    left: 0px
 			    right: 0px;
-			    width: 700px;
+			    width: 670px;
 			    top:160px;
 			}
 			.animate_main_head{
@@ -40,6 +40,9 @@
 			    margin-top: 8px;
 			    margin: 3px 0px 0px 0px;
 			}
+			.main_heading_text:after {
+			    margin: 0 0;
+			}
 		</style>
 	</head>
 	<body>
@@ -50,8 +53,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="video_text_block">
-							<h2 class="animate_main_head">Crack the IELTS Exam with the help of our Cambridge Certified Trainers.</h2>
-							<h4 class="animate_main_sub_head">Get the Study Smart Advantage</h4>
+							<h2 class="animate_main_head">Crack the IELTS Exam with our Cambridge Certified Trainers.</h2>
 							<p class="pt-4">
 								<a href="#" class="animate_main_tag_link">Get Started</a>
 							</p>
@@ -99,6 +101,11 @@
 
 		<div class="bg-white pt-4 pb-3">
 			<div class="container">
+				<div class="row mb-2">
+					<div class="col-lg-12">
+						<h2 class="text-left pb-2 main_heading_text">Get The Study Smart Advantage</h2>
+					</div>
+				</div>
 				<div class="row mt-1">
 					<?php
 						foreach($studySmartAdv as $item): ?>
@@ -121,9 +128,9 @@
 			<hr>
 			<div class="row mt-4">
 				<div class="col-md-8">
-					<h2 class="text-left pb-2 page-heading-text">IELTS Week Day Course Offering</h2>
+					<h2 class="text-left pb-2 page-heading-text">IELTS Offline Course Offering</h2>
 					<ul class="list-unstyled">
-						<li class="pb-2"><span class="fa fa-check"></span> 32 hours of classes</li>
+						<li class="pb-2"><span class="fa fa-check"></span> 32 - 60 hours of classes</li>
 						<li class="pb-2"><span class="fa fa-check"></span> 120 + hours of self guided personal training through our skill building lessons on the online portal </li>
 						<li class="pb-2"><span class="fa fa-check"></span> 200+ practice exercises and quizzes </li>
 						<li class="pb-2"><span class="fa fa-check"></span> 10 mock tests for each module </li>
@@ -182,10 +189,7 @@
 						</div>
 						<hr>
 						<div class="mt-4">
-							<button class="btn btn-outline-primary btn-block">Full IELTS Training Programme: Rs. 9500 + taxes</button>
-						</div>
-						<div class="mt-3">
-							<button class="btn btn-outline-primary btn-block">16 hrs/ 2 modules: Rs. 7000 + taxes</button>
+							<button class="btn btn-outline-primary btn-block">Pricing : Rs. 9500 + taxes</button>
 						</div>
 						<div class="mt-3">
 							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
@@ -211,8 +215,7 @@
 							<p>Duration: Saturday and Sunday</p>
 							<p>Timings:</p>
 							<ul class="list-unstyled">
-								<li><span class="fa fa-clock"></span> 10:00 AM to 02:00 PM</li>
-								<li><span class="fa fa-clock"></span> 04:00 PM to 08:00 PM</li>
+								<li><span class="fa fa-clock"></span> 10:00 AM to 02:00 PM & 04:00 PM to 08:00 PM</li>
 							</ul>
 						</div>
 						<hr>
@@ -235,7 +238,7 @@
 						</div>
 						<hr>
 						<div class="mt-4">
-							<button class="btn btn-outline-primary btn-block">IELTS Training Programme: Rs. 12500 + taxes</button>
+							<button class="btn btn-outline-primary btn-block">Pricing : Rs. 12500 + taxes</button>
 						</div>
 						<div class="mt-3">
 							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>

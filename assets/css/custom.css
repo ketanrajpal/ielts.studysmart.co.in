@@ -219,17 +219,17 @@ body{font-family:"Raleway",sans-serif}
     font-size: 20px;
 }
 .text-decoration-none:hover{text-decoration: none;}
-.phone_call_block{
+.phone_call_block {
     position: fixed;
     z-index: 9999;
-    bottom: 95px;
-    left: 20px;
+    bottom: 175px;
+    right: 20px;
 }
-.whatsapp_block{
+.whatsapp_block {
     position: fixed;
     z-index: 9999;
-    bottom: 20px;
-    left: 20px;
+    bottom: 100px;
+    right: 20px;
 }
 .back_to_top{
     position: fixed;

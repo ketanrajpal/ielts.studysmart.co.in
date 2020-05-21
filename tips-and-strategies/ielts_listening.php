@@ -7,8 +7,8 @@
 <div class="row mt-2">
 	<div class="col-md-12">
 		<ol type="1">
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Listening Questions - Multiple Choice 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Listening Questions - Multiple Choice </strong>
 				<ol type="a">
 					<li>
 						Skim the questions and the answer choices quickly: Skim the IELTS Listening questions and the answer choices quickly before the recording starts. As you do this,
@@ -29,8 +29,8 @@
 					<li>Remember to listen for people correcting themselves: Remember to listen for people correcting themselves when speaking. They may discuss one of the answer choices and then reject it.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Listening Questions - Short Answer 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Listening Questions - Short Answer </strong>
 				<ol type="a">
 					<li>
 						Skim the IELTS Listening questions quickly: Skim the questions quickly before the recording starts and during the 30 seconds given. As you do this,
@@ -46,8 +46,8 @@
 					<li>Number of words: The answer could be one word, two words or three words but not four or more. If you think you need more than three words your answer is probably incorrect.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Listening Questions  - Sentence Completion 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Listening Questions  - Sentence Completion </strong>
 				<ol type="a">
 					<li>
 						Read the sentences carefully: Read the sentences carefully before the recording starts and during the 30 seconds given. As you do this,
@@ -65,8 +65,8 @@
 					<li>Number of words: The answer could be one word, two words or three words but not four or more. If you think you need more than three words your answer is probably incorrect.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For IELTS Listening Questions –notes / Table / Summary / Form / Flowchart / Diagram 
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For IELTS Listening Questions –notes / Table / Summary / Form / Flowchart / Diagram </strong>
 				<ol type="a">
 					<li>
 						Read the sentences carefully: Look at the table or form etc carefully before the recording starts and during the 30 seconds given. As you do this,
@@ -89,8 +89,8 @@
 					<li>There may be alternative rubrics for these completion questions e.g. ‘complete the notice’ or ‘complete the explanation’ or ‘complete the news report’.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				Preparation Strategy For  IELTS Listening Questions - Labelling A Diagram Which Has Labelled Part
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>Preparation Strategy For  IELTS Listening Questions - Labelling A Diagram Which Has Labelled Part</strong>
 				<ol type="a">
 					<li>Read the instructions carefully: They will state how many words you should use if there is not a box of labels provided. You could be asked to write one word only.</li>
 					<li>Study the diagram: You may be able to predict one or two answers or associated vocabulary that you may hear connected to a particular label.</li>
@@ -99,8 +99,8 @@
 					<li>Use the information: Use the information given on the diagram to help you if you get lost.</li>
 				</ol>
 			</li>
-			<li class="font-family-lato">
-				General Tips For IELTS Listening Test:
+			<li class="font-family-lato mt-1 mb-2 pb-2">
+				<strong>General Tips For IELTS Listening Test:</strong>
 				<ol type="a">
 					<li>
 						Before the exam
