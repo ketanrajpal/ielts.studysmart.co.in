@@ -252,6 +252,9 @@ body{font-family:"Raleway",sans-serif}
 
 /**Responsive Css**********************************************************/
 @media only screen and (max-width: 763px) {
+    .background_video{
+        margin-top: unset;
+    }
     .video_text_block{
         top: 30px;
         left: 20px;
