@@ -53,6 +53,27 @@
 				}
 			}
 		</style>
+		<script type="application/ld+json">
+        
+        {
+        "@context" : "http://schema.org",
+        "@type" : "EducationalOrganization",
+        "name" : "Study Smart | Online IELTS Training Provider | Study Abroad Consultants ",
+        "image" : "https://www.studysmart.co.in/image/logo.jpg",
+        "telephone" : "+91 9650680072",
+        "email" : "delhi@studysmart.co.in",
+        "address" : {
+        "@type" : "PostalAddress",
+        "streetAddress" : "D-62, Ground Floor, Near Dena Bank, South Extension 1, Delhi 110049",
+        "addressLocality" : "South Extension 1",
+        "addressRegion" : "Delhi",
+        "addressCountry" : "India", 
+        "postalCode" : "110049"
+        },
+        "url" : "https://www.studysmart.co.in/"
+        }
+        </script>
+        <meta itemprop="name" content="Monday to Saturday">
 	</head>
 	<body>
 		<?php include '../layouts/header.php'; ?>
@@ -64,7 +85,7 @@
 						<div class="video_text_block">
 							<h2 class="animate_main_head">Crack the IELTS Exam with our Cambridge Certified Trainers.</h2>
 							<p class="pt-4">
-								<a href="#" class="animate_main_tag_link">Get Started</a>
+								<a href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads" class="animate_main_tag_link">Get Started</a>
 							</p>
 						</div>
 					</div>
@@ -204,10 +225,10 @@
 						</div>
 						<hr>
 						<div class="mt-4">
-							<button class="btn btn-outline-primary btn-block font-weight-bold">Pricing : Rs. 9500 + taxes</button>
+							<a class="btn btn-outline-primary btn-block font-weight-bold" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Pricing : Rs. <?php echo number_format(9500, 2); ?> + taxes</a>
 						</div>
 						<div class="mt-3">
-							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
+							<a class="btn btn-primary btn-block" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Get Started</a>
 						</div>
 					</div>
 				</div>
@@ -252,10 +273,10 @@
 						</div>
 						<hr>
 						<div class="mt-4">
-							<button class="btn btn-outline-primary btn-block font-weight-bold">Pricing : Rs. 12500 + taxes</button>
+							<a class="btn btn-outline-primary btn-block font-weight-bold" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Pricing : Rs. <?php echo number_format(12500, 2); ?> + taxes</a>
 						</div>
 						<div class="mt-3">
-							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
+							<a class="btn btn-primary btn-block" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Get Started</a>
 						</div>
 					</div>
 				</div>

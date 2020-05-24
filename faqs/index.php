@@ -17,6 +17,27 @@
 			    margin: 3px auto;
 			}
 		</style>
+		<script type="application/ld+json">
+        
+        {
+        "@context" : "http://schema.org",
+        "@type" : "EducationalOrganization",
+        "name" : "Study Smart | Online IELTS Training Provider | Study Abroad Consultants ",
+        "image" : "https://www.studysmart.co.in/image/logo.jpg",
+        "telephone" : "+91 9650680072",
+        "email" : "delhi@studysmart.co.in",
+        "address" : {
+        "@type" : "PostalAddress",
+        "streetAddress" : "D-62, Ground Floor, Near Dena Bank, South Extension 1, Delhi 110049",
+        "addressLocality" : "South Extension 1",
+        "addressRegion" : "Delhi",
+        "addressCountry" : "India", 
+        "postalCode" : "110049"
+        },
+        "url" : "https://www.studysmart.co.in/"
+        }
+        </script>
+        <meta itemprop="name" content="Monday to Saturday">
 	</head>
 	<body>
 		<?php include '../layouts/header.php'; ?>

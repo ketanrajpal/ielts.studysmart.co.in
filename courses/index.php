@@ -17,6 +17,27 @@
 			    margin: 3px 0px 0px 0px;
 			}
 		</style>
+		<script type="application/ld+json">
+        
+        {
+        "@context" : "http://schema.org",
+        "@type" : "EducationalOrganization",
+        "name" : "Study Smart | Online IELTS Training Provider | Study Abroad Consultants ",
+        "image" : "https://www.studysmart.co.in/image/logo.jpg",
+        "telephone" : "+91 9650680072",
+        "email" : "delhi@studysmart.co.in",
+        "address" : {
+        "@type" : "PostalAddress",
+        "streetAddress" : "D-62, Ground Floor, Near Dena Bank, South Extension 1, Delhi 110049",
+        "addressLocality" : "South Extension 1",
+        "addressRegion" : "Delhi",
+        "addressCountry" : "India", 
+        "postalCode" : "110049"
+        },
+        "url" : "https://www.studysmart.co.in/"
+        }
+        </script>
+        <meta itemprop="name" content="Monday to Saturday">
 	</head>
 	<body>
 		<?php include '../layouts/header.php'; ?>
@@ -57,10 +78,10 @@
 						    <li><span class="fa fa-clock"></span> 07:00 PM 	to 	09:00 PM</li>
 						</ul>
 						<div class="mt-2">
-							<button class="btn btn-outline-dark btn-block">Pricing:  Rs. <?php echo number_format(10500,2); ?>/- plus taxes</button>
+							<a class="btn btn-outline-dark btn-block" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Pricing:  Rs. <?php echo number_format(10500,2); ?>/- plus taxes</a>
 						</div>
 						<div class="mt-3">
-							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
+							<a class="btn btn-primary btn-block" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Get Started</a>
 						</div>
 					</div>
 				</div>
@@ -104,10 +125,10 @@
 							<li><span class="fa fa-clock"></span> 02:00 PM to 06:00 PM</li>
 						</ul>
 						<div class="mt-2">
-							<button class="btn btn-outline-dark btn-block">Pricing:  Rs. <?php echo number_format(10500,2); ?>/- plus taxes</button>
+							<a class="btn btn-outline-dark btn-block" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Pricing:  Rs. <?php echo number_format(10500,2); ?>/- plus taxes</a>
 						</div>
 						<div class="mt-3">
-							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
+							<a class="btn btn-primary btn-block" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Get Started</a>
 						</div>
 					</div>
 				</div>
@@ -149,10 +170,10 @@
 							<li><span class="fa fa-clock"></span> 07:00 PM to 09:00 PM</li>
 						</ul>
 						<div class="mt-2">
-							<button class="btn btn-outline-dark btn-block">Pricing:  Rs. <?php echo number_format(16500,2); ?>/- plus taxes</button>
+							<a class="btn btn-outline-dark btn-block" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Pricing:  Rs. <?php echo number_format(16500,2); ?>/- plus taxes</a>
 						</div>
 						<div class="mt-3">
-							<a class="btn btn-primary btn-block" href="javascript:void(0);">Get Started</a>
+							<a class="btn btn-primary btn-block" href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads">Get Started</a>
 						</div>
 					</div>
 				</div>

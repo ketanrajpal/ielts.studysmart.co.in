@@ -35,7 +35,31 @@
 			    margin-top: 10px;
 			    margin: 0 auto;
 			}
+			.left_bottom_bar:after{
+				margin: 3px 0px 0px 0px;
+			}
 		</style>
+		<script type="application/ld+json">
+        
+        {
+        "@context" : "http://schema.org",
+        "@type" : "EducationalOrganization",
+        "name" : "Study Smart | Online IELTS Training Provider | Study Abroad Consultants ",
+        "image" : "https://www.studysmart.co.in/image/logo.jpg",
+        "telephone" : "+91 9650680072",
+        "email" : "delhi@studysmart.co.in",
+        "address" : {
+        "@type" : "PostalAddress",
+        "streetAddress" : "D-62, Ground Floor, Near Dena Bank, South Extension 1, Delhi 110049",
+        "addressLocality" : "South Extension 1",
+        "addressRegion" : "Delhi",
+        "addressCountry" : "India", 
+        "postalCode" : "110049"
+        },
+        "url" : "https://www.studysmart.co.in/"
+        }
+        </script>
+        <meta itemprop="name" content="Monday to Saturday">
 	</head>
 	<body>
 		<?php include './layouts/header.php'; ?>
@@ -49,7 +73,7 @@
 						<h2 class="animate_main_head">Train with One of India’s Best IELTS Training Provider</h2>
 						<h4 class="animate_main_sub_head">Get that 8+ Band Score in the First attempt</h4>
 						<p class="pt-4">
-							<a href="#" class="animate_main_tag_link">Get Started</a>
+							<a href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads" class="animate_main_tag_link">Get Started</a>
 						</p>
 					</div>
 				</div>
@@ -95,7 +119,7 @@
 			<div class="container">
 				<div class="row mb-2">
 					<div class="col-lg-6">
-						<h2 class="text-center text-sm-left text-md-left text-lg-left text-xl-left main_heading_text pb-4">Get The Study Smart Advantage</h2>
+						<h2 class="text-center text-sm-left text-md-left text-lg-left text-xl-left main_heading_text pb-4 left_bottom_bar">Get The Study Smart Advantage</h2>
 					</div>
 					<div class="col-lg-6">
 						<h2 class="text-center text-sm-right text-md-right text-lg-right text-xl-right main_heading_text pb-4">
@@ -110,7 +134,7 @@
 						foreach($studySmartAdv as $item): ?>
 							<div class="col-lg-4 mt-2 mb-2">
 								<div class="study_smart_adv">
-									<img src="<?php echo $item['img']; ?>" alt="" width="60">
+									<img src="<?php echo $item['img']; ?>" alt="Study Smart" width="60">
 									<h2><?php echo $item['title']; ?></h2>
 									<p><?php echo $item['desc']; ?></p>
 								</div>
@@ -173,7 +197,7 @@
 									<div class="success_stories">
 										<div class="row mt-2">
 											<div class="col-3 col-sm-3 col-md-3 col-lg-2 pr-0">
-												<img class="" data-src="<?php echo $item['user_pic']; ?>" src="<?php echo $item['user_pic']; ?>">
+												<img class="" data-src="<?php echo $item['user_pic']; ?>" src="<?php echo $item['user_pic']; ?>" alt="Study Smart">
 											</div>
 											<div class="col-9 col-sm-9 col-md-9 col-lg-10">
 												<h4><?php echo $item['user_name']; ?></h4>
@@ -187,7 +211,7 @@
 					</div>
 					<div class="col-lg-6">
 						<h2 class="text-center mt-4 mb-2 main_heading_text">Intro Video</h2>
-						<div class="embed-responsive embed-responsive-21by9 mt-3">
+						<div class="embed-responsive embed-responsive-21by9 mt-3 success_stories">
 							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m00AFWd0HOs"></iframe>
 						</div>
 					</div>
@@ -324,7 +348,7 @@
 										<a href="javascript:void(0);" class="text-decoration-none" onclick="callOurTeamModal('<?php echo $item['user_pic']; ?>', '<?php echo $item['user_name']; ?>', '<?php echo $item['designation']; ?>', '<?php echo $item['comments']; ?>');">
 											<div class="row">
 												<div class="col-lg-12">
-													<img src="<?php echo $item['user_pic']; ?>">
+													<img src="<?php echo $item['user_pic']; ?>" alt="Study Smart">
 													<!-- <div class="profile_pic" data-src="<?php echo $item['user_pic']; ?>" style="background-image: url(<?php echo $item['user_pic']; ?>);"></div> -->
 													<h2><?php echo $item['user_name']; ?></h2>
 													<p><?php echo $item['designation']; ?></p>
@@ -446,7 +470,7 @@ function callOurTeamModal(user_image, user_name, designation, comments){
 	console.log(user_name);
 	console.log(designation);
 	console.log(comments);
-	$('#team_profile_picture').html('<img src='+user_image+'>');
+	$('#team_profile_picture').html('<img src='+user_image+' >');
 	$('#team_member_name').text(user_name);
 	$('#team_member_desination').text(designation);
 	$('#team_member_comments').text(comments);

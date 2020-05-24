@@ -28,6 +28,27 @@
 			    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
 			}
 	</style>
+	<script type="application/ld+json">
+        
+        {
+        "@context" : "http://schema.org",
+        "@type" : "EducationalOrganization",
+        "name" : "Study Smart | Online IELTS Training Provider | Study Abroad Consultants ",
+        "image" : "https://www.studysmart.co.in/image/logo.jpg",
+        "telephone" : "+91 9650680072",
+        "email" : "delhi@studysmart.co.in",
+        "address" : {
+        "@type" : "PostalAddress",
+        "streetAddress" : "D-62, Ground Floor, Near Dena Bank, South Extension 1, Delhi 110049",
+        "addressLocality" : "South Extension 1",
+        "addressRegion" : "Delhi",
+        "addressCountry" : "India", 
+        "postalCode" : "110049"
+        },
+        "url" : "https://www.studysmart.co.in/"
+        }
+        </script>
+        <meta itemprop="name" content="Monday to Saturday">
 </head>
 <body>
 	<?php include("../layouts/header.php"); ?>
@@ -44,47 +65,49 @@
 			<div class="col-md-6">
 				<div class="bottom_section_layout">
 					<form method="POST" action="https://thirdpartyapi.extraaedge.com/api/SaveRequest" class="submit_lead_form">
-						<input type="hidden" name="AuthToken" value="ARIHANTEDU-28-04-2020">
-						<input type="hidden" name="Source" value="arihanteducation">
-					    <input type="hidden" name="LeadSource" value="Website">
-					    <input type="hidden" name="LeadType" value="Online">
-					    <input type="hidden" name="LeadName" value="Contact Us Form">
-					    <input type="hidden" name="Course" value="Not Known">
-						<div class="row mt-3">
+						<input type="hidden" name="AuthToken" value="STUDYSMART-16-10-2019">
+						<input type="hidden" name="Source" value="studysmart">
+						<input type="hidden" name="LeadSource" value="MicroSite">
+						<input type="hidden" name="LeadType" value="Online">
+						<input type="hidden" name="LeadName" value="Landing Page">
+						<input type="hidden" name="Course" value="Not Known">
+						<input type="hidden" name="BatchApplied" value="Web IELTS Micro">
+						<input type="hidden" name="LeadStatus" value="1 - New (TestPrep)">
+						<input type="hidden" name="ReasonCode" value="Not Called">
+						<div class="row mt-2">
 							<div class="col-md-12">
-								<label>Name</label>
-								<input type="text" class="form-control" name="FirstName"  required="" placeholder="Enter your name">
+								<label class="label_text_heading">Name</label>
+								<input type="text" class="form-control label_text_heading" name="FirstName"  required="" placeholder="Enter your name">
 							</div>
 						</div>
-						<div class="row mt-3">
+						<div class="row mt-2">
 							<div class="col-md-12">
-								<label>Mobile Number</label>
-								<input type="text" class="form-control" name="MobileNumber"  required="" placeholder="Enter your mobile number">
+								<label class="label_text_heading">Mobile Number</label>
+								<input type="text" class="form-control label_text_heading" name="MobileNumber"  required="" placeholder="Enter your mobile number">
 							</div>	
 						</div>
-						<div class="row mt-3">
+						<div class="row mt-2">
 							<div class="col-md-12">
-								<label>Email ID</label>		
-								<input type="email" name="Email" class="form-control" required="" placeholder="Enter your email address">
+								<label class="label_text_heading">Email ID</label>		
+								<input type="email" name="Email" class="form-control label_text_heading" required="" placeholder="Enter your email address">
 							</div>
 						</div>
-						<div class="row mt-3">
+						<div class="row mt-2">
 							<div class="col-md-12">
-								<label>Location</label>		
-								<input type="text" name="Location" class="form-control" required="" placeholder="Enter your area/location">
-							</div>
-						</div>
-
-						<div class="row mt-3">
-							<div class="col-md-12">
-								<label>Enquiry</label>
-								<textarea class="form-control" name="Comment" required="" placeholder="Enter your enquiry"></textarea>
+								<label class="label_text_heading">Location</label>		
+								<input type="text" name="State" class="form-control label_text_heading" required="" placeholder="Enter your area/location">
 							</div>
 						</div>
 
+						<div class="row mt-2">
+							<div class="col-md-12">
+								<label class="label_text_heading">Enquiry</label>
+								<textarea class="form-control label_text_heading" name="Comment" required="" placeholder="Enter your enquiry"></textarea>
+							</div>
+						</div>
 						<div class="row mt-3">
 							<div class="col-md-12">
-								<button type="submit" name="submit_btn" value="submit_btn" class="btn btn-md btn-primary">Submit</button>
+								<button type="submit" name="submit_btn" value="submit_btn" class="btn btn-sm btn-primary">Submit</button>
 							</div>
 						</div>
 					</form>
@@ -182,32 +205,5 @@
 
 <?php include '../layouts/footer.php'; ?>
 <?php include '../layouts/common_scripts.php'; ?>
-<script type="text/javascript">
-    var form = $('.submit_lead_form');
-    form.submit(function (e) {
-        e.preventDefault();
-        $.ajax({
-            type: form.attr('method'),
-            url: form.attr('action'),
-            // dataType: 'json',
-       	    data: JSON.stringify(objectifyForm(form.serializeArray())),
-            success: function (data) {
-          		if(data == 'Success'){
-          			$('#thanks_popup_call_msg').modal('show');
-          		}
-            },
-            error: function (data) {
-              	
-            },
-        });
-    });
-    function objectifyForm(formArray){
-    	var returnArray = {};
-  		for (var i = 0; i < formArray.length; i++){
-    		returnArray[formArray[i]['name']] = formArray[i]['value'];
-  		}
-  		return returnArray;
-	}
-</script>
 </body>
 </html>

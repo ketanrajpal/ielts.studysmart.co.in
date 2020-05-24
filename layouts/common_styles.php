@@ -9,11 +9,20 @@
 	$finalResourceUrl = $port.$_SERVER['HTTP_HOST'].'/'.$firstSubDir;
 	define(COMMON_CALL_URL, $finalResourceUrl);
 ?>
-
+<meta name="description" content="Get the best IELTS training from the experts and achieve your aim of study abroad. Study Smart is one of the best Online IELTS training provider and consultation.">
 <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://kit.fontawesome.com/c22280aa8e.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://www.studysmart.co.in/ieltstesting/assets/css/bootstrap.min.css" >
+<script src="https://www.studysmart.co.in/ieltstesting/assets/js/c22280aa8e.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="<?php echo (COMMON_CALL_URL.'/assets/css/custom.css'); ?>">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <link rel="shortcut icon" href="https://studysmart.co.in/ieltstesting/assets/img/favicon.jpg">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45525368-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-45525368-2');
+</script>
