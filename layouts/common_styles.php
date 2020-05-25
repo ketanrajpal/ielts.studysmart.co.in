@@ -9,8 +9,8 @@
 	$finalResourceUrl = $port.$_SERVER['HTTP_HOST'].'/'.$firstSubDir;
 	define(COMMON_CALL_URL, $finalResourceUrl);
 ?>
-<meta name="description" content="Get the best IELTS training from the experts and achieve your aim of study abroad. Study Smart is one of the best Online IELTS training provider and consultation.">
-<!-- Bootstrap CSS -->
+<meta name="author" content="IELTS Preparation">
+<link rel="canonical" href="<?php echo $port.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>"/>
 <link rel="stylesheet" href="https://www.studysmart.co.in/ieltstesting/assets/css/bootstrap.min.css" >
 <script src="https://www.studysmart.co.in/ieltstesting/assets/js/c22280aa8e.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="<?php echo (COMMON_CALL_URL.'/assets/css/custom.css'); ?>">

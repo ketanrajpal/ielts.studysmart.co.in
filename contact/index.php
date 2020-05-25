@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
 	<!-- Required meta tags -->
-	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Contact Us | Study Smart</title>
+	<meta name="description" content="Study Smart offers training and coaching for IELTS. We provide best IELTS centers in south Delhi and Pune. Our quality itself is a good reason to join us for IELTS coaching in Delhi">
+		<meta name="keywords" content="IELTS Preparation, ielts preparation in delhi, IELTS Coaching and Training, IELTS Coaching in Delhi, IELTS Training in Delhi, IELTS courses, IELTS institute in Delhi, IELTS coaching in Pune,IELTS training in Pune">
 	<?php include '../layouts/common_styles.php'; ?>
 	<style type="text/css">
 		.page-heading-text:after{
@@ -102,7 +104,7 @@
 						<div class="row mt-2">
 							<div class="col-md-12">
 								<label class="label_text_heading">Enquiry</label>
-								<textarea class="form-control label_text_heading" name="Comment" required="" placeholder="Enter your enquiry"></textarea>
+								<textarea class="form-control label_text_heading" name="Remarks" required="" placeholder="Enter your enquiry"></textarea>
 							</div>
 						</div>
 						<div class="row mt-3">

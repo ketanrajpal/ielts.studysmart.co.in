@@ -139,7 +139,7 @@
                     <div class="row mt-2">
                         <div class="col-md-12">
                             <label class="label_text_heading">Enquiry</label>
-                            <textarea class="form-control label_text_heading" name="Comment" required="" placeholder="Enter your enquiry"></textarea>
+                            <textarea class="form-control label_text_heading" name="Remarks" required="" placeholder="Enter your enquiry"></textarea>
                         </div>
                     </div>
                 </div>
