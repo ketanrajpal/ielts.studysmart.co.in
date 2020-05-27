@@ -30,7 +30,7 @@
                     <li class="margin-top10 margin-bottom10"><a class="text-white" href=""><span class="fa fa-map-marker"></span> D-62, Ground Floor, Near Dena Bank, South Extension 1, Delhi 110049</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3">  
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center text-sm-left text-md-left text-lg-left">
                 <div class="margin-bottom20">
                     <h2 class="text-white footer_head">Connect With Us</h2>                    
                 </div>

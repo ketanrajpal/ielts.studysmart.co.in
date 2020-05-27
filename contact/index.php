@@ -5,7 +5,7 @@
 	<meta http-equiv="content-type" content="text/html;charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Contact Us | Study Smart</title>
-	<meta name="description" content="Study Smart offers training and coaching for IELTS. We provide best IELTS centers in south Delhi and Pune. Our quality itself is a good reason to join us for IELTS coaching in Delhi">
+	<meta name="description" content="Study Smart tis one of the best coaching center for IELTS prepration. Contact us for free trial. Our counsellors will contact you within 24 hrs.">
 		<meta name="keywords" content="IELTS Preparation, ielts preparation in delhi, IELTS Coaching and Training, IELTS Coaching in Delhi, IELTS Training in Delhi, IELTS courses, IELTS institute in Delhi, IELTS coaching in Pune,IELTS training in Pune">
 	<?php include '../layouts/common_styles.php'; ?>
 	<style type="text/css">

@@ -11,12 +11,12 @@
 ?>
 <meta name="author" content="IELTS Preparation">
 <link rel="canonical" href="<?php echo $port.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>"/>
-<link rel="stylesheet" href="https://www.studysmart.co.in/ieltstesting/assets/css/bootstrap.min.css" >
-<script src="https://www.studysmart.co.in/ieltstesting/assets/js/c22280aa8e.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://www.studysmart.co.in/ielts/assets/css/bootstrap.min.css" >
+<script src="https://www.studysmart.co.in/ielts/assets/js/c22280aa8e.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="<?php echo (COMMON_CALL_URL.'/assets/css/custom.css'); ?>">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-<link rel="shortcut icon" href="https://studysmart.co.in/ieltstesting/assets/img/favicon.jpg">
+<link rel="shortcut icon" href="https://studysmart.co.in/ielts/assets/img/favicon.jpg">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45525368-2"></script>
 <script>

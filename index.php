@@ -1,11 +1,15 @@
+<?php 
+	require_once './layouts/Mobile_Detect.php';
+	$detect = new Mobile_Detect;
+?>
 <!doctype html>
 <html lang="en">
 	<head>
 		<!-- Required meta tags -->
 		<meta http-equiv="content-type" content="text/html;charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>IELTS Preparation, Coaching ,Training, Institute In Delhi & Pune| Study Smart</title>
-		<meta name="description" content="Study Smart offers training and coaching for IELTS. We provide best IELTS centers in south Delhi and Pune. Our quality itself is a good reason to join us for IELTS coaching in Delhi">
+		<title> Online IELTS Preparation, Training | Study Smart</title>
+		<meta name="description" content="Study Smart offers online training and coaching for IELTS. We provide best IELTS center in south Delhi and Pune. Our quality itself is a good reason to join us.">
 		<meta name="keywords" content="IELTS Preparation, ielts preparation in delhi, IELTS Coaching and Training, IELTS Coaching in Delhi, IELTS Training in Delhi, IELTS courses, IELTS institute in Delhi, IELTS coaching in Pune,IELTS training in Pune">
 		<?php include './layouts/common_styles.php'; ?>
 		<style type="text/css">
@@ -40,6 +44,14 @@
 			.left_bottom_bar:after{
 				margin: 3px 0px 0px 0px;
 			}
+			.background_banner_mob {
+			    width: 100%;
+			    height: 250px;
+			    background-position: center;
+			    background-size: cover;
+			    background-repeat: no-repeat;
+			}
+			.font-size20{font-size: 20px;}
 		</style>
 		<script type="application/ld+json">
         
@@ -68,16 +80,28 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 p-0">
-					<video autoplay muted loop class="background_video" poster="./assets/img/home_page_video.jpg">
-						<source  src="./assets/video/new_video.mp4" type="video/mp4" />
-					</video>
-					<div class="video_text_block"> 
-						<h2 class="animate_main_head">Train with One of India’s Best IELTS Training Provider</h2>
-						<h4 class="animate_main_sub_head">Get that 8+ Band Score in the First attempt</h4>
-						<p class="pt-4">
-							<a href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads" class="animate_main_tag_link">Get Started</a>
-						</p>
-					</div>
+					<?php if ($detect->isMobile()): ?>
+						<div class="background_banner_mob" style="background-image: url('./assets/img/home_page_video.jpg');">
+							<div class="video_text_block"> 
+								<h2 class="animate_main_head">Get That 8+ Band Score with</h2>
+								<h4 class="animate_main_sub_head">India's Best IELTS Training Provider</h4>
+								<p class="pt-4">
+									<a href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads" class="animate_main_tag_link">Get Started</a>
+								</p>
+							</div>
+						</div>
+					<?php else: ?>
+						<video autoplay muted loop class="background_video" poster="./assets/img/home_page_video.jpg">
+							<source  src="./assets/video/new_video.mp4" type="video/mp4" />
+						</video>
+						<div class="video_text_block"> 
+							<h2 class="animate_main_head">Train with One of India’s Best IELTS Training Provider</h2>
+							<h4 class="animate_main_sub_head">Get that 8+ Band Score in the First attempt</h4>
+							<p class="pt-4">
+								<a href="javascript:void(0);" data-toggle="modal" data-target="#call_popup_send_leads" class="animate_main_tag_link">Get Started</a>
+							</p>
+						</div>
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
@@ -119,6 +143,13 @@
 
 		<div class="bg-white pt-4 pb-5">
 			<div class="container">
+				<?php if($detect->isMobile()): ?>
+				<div class="row mb-2">
+					<div class="col-lg-6">
+						<h2 class="text-center text-sm-left text-md-left text-lg-left text-xl-left main_heading_text pb-4 font-size20">Get The Study Smart Advantage</h2>
+					</div>
+				</div>
+				<?php else: ?>
 				<div class="row mb-2">
 					<div class="col-lg-6">
 						<h2 class="text-center text-sm-left text-md-left text-lg-left text-xl-left main_heading_text pb-4 left_bottom_bar">Get The Study Smart Advantage</h2>
@@ -131,6 +162,7 @@
 						</h2>
 					</div>
 				</div>
+				<?php endif; ?>
 				<div class="row mt-1">
 					<?php
 						foreach($studySmartAdv as $item): ?>
